@@ -1,0 +1,26 @@
+[
+  {
+    "text": "học phí đắt không",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "hp_cntt",
+      "confidence": 0.5688199400901794
+    }
+  },
+  {
+    "text": "học phí ngành  ổn không",
+    "intent": "hp_duoc",
+    "intent_prediction": {
+      "name": "hp_cntt",
+      "confidence": 0.5007543563842773
+    }
+  },
+  {
+    "text": "giới thiệu một chút về dược học đi",
+    "intent": "gt_xny",
+    "intent_prediction": {
+      "name": "gt_duochoc",
+      "confidence": 0.8291873335838318
+    }
+  }
+]

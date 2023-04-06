@@ -1,0 +1,28 @@
+language: "en"
+
+pipeline:
+  - name: "WhitespaceTokenizer"
+  - name: "RegexFeaturizer"
+  - name: "CRFEntityExtractor"
+  - name: "EntitySynonymMapper"
+  - name: "CountVectorsFeaturizer"
+  - name: "CountVectorsFeaturizer"
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+    batch_strategy: sequence
+
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy
+endpoints:
+  action:
+    url: http://localhost:5055/webhook
+  nlu:
+    url: http://localhost:5000/model/parse
+tracker_store:
+  type: sql
+  dialect: sqlite
+  url: sqlite:///rasa.db
+assistant_id: 20230405-220631-worried-column

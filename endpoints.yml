@@ -1,0 +1,6 @@
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+
+models:
+  default:
+    url: "http://localhost:8000/models/default/core"
