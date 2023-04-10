@@ -15,131 +15,164 @@ intents:
   - chuong_trinh_dao_tao
   - hoc_phi
   - gioi_thieu
+  
+  - hp_cdt
+  - hp_cnsh
+  - hp_cntp
   - hp_cntt
-  - hp_duoc
-  - hp_y
-  - hp_yhdp
-  - hp_dduong
-  - hp_xnyh
-  - hp_qlbv
-  - hp_phcn
-  - hp_tnhac
-  - hp_piano
   - hp_ddien
-  - hp_qphim
-  - hp_tkdh
-  - hp_tv
+  - hp_ddt
+  - hp_dduong
+  - hp_dlich
+  - hp_dpt
+  - hp_dph
+  - hp_duoc
+  - hp_dvien
+  - hp_gdmn
+  - hp_htcn
+  - hp_kdqt
+  - hp_ktoan
+  - hp_ktpm
+  - hp_ktxd
+  - hp_ktys
+  - hp_kthh
+  - hp_ktruc
+  - hp_lkt
+  - hp_log
+  - hp_mar
+  - hp_mmt
   - hp_nna
   - hp_nntq
-  - hp_qhqt
-  - hp_tlh
-  - hp_dph
-  - hp_vnh
-  - hp_dpt
-  - hp_qhcc
-  - hp_qtkd
-  - hp_mar
-  - hp_kdqt
-  - hp_tmdt
-  - hp_tcnh
-  - hp_ktoan
-  - hp_qtnl
-  - hp_lkt
-  - hp_cnsh
-  - hp_mmt
-  - hp_ktpm
-  - hp_cntt
-  - hp_cdt
+  - hp_nhhang
   - hp_oto
-  - hp_ddt
-  - hp_kthh
-  - hp_log
-  - hp_htcn
-  - hp_ktys
-  - hp_vlyk
-  - hp_cntp
-  - hp_ktruc
-  - hp_tknt
-  - hp_ktxd
-  - hp_dlich
+  - hp_piano
+  - hp_phcn
+  - hp_qhcc
+  - hp_qhqt
+  - hp_qlbv
+  - hp_qphim
+  - hp_qtkd
   - hp_qtks
-  - hp_qtnhhang
+  - hp_qtnl
+  - hp_tcnh
+  - hp_tkdh
+  - hp_tknt
+  - hp_tlh
+  - hp_tmdt
   - hp_tnmt
-  - hp_gdmn
-  - gt_qltnmt
-  - gt_dlich
-  - gt_qtnhang
-  - gt_qtksan
-  - gt_ktxdung
-  - gt_tknthat
-  - gt_ktruc
-  - gt_cntpham
-  - gt_vlykhoa
-  - gt_ktysinh
-  - gt_kthtcnghiep
-  - gt_logistic
-  - gt_cnkthhoc
-  - gt_cnktdien_dientu
-  - gt_cnktoto
-  - gt_cnktcdientu
-  - gt_cnnt
-  - gt_mmt_ttdulieu
-  - gt_ktphanmem
-  - gt_cnshoc
-  - gt_luatkt
-  - gt_qtnhanluc
-  - gt_tmdientu
-  - gt_ktoan
-  - gt_tcnganhang
-  - gt_kdqte
-  - gt_marketing
-  - gt_qtkdoanh
-  - gt_qhcongchung
-  - gt_ttdaphuongtien
-  - gt_vnhoc
-  - gt_dphoc
-  - gt_tlhoc
-  - gt_qhqt
-  - gt_nntq
-  - gt_nnanh
-  - gt_vhvn
-  - gt_tkdh
-  - gt_qphim
+  - hp_tnhac
+  - hp_vhvn
+  - hp_vlyk
+  - hp_vnh
+  - hp_xnyh
+  - hp_yhdp
+  - hp_ykhoa 
+
+  - gt_cdt
+  - gt_cnsh
+  - gt_cntp
+  - gt_cntt
   - gt_ddien
-  - gt_dvien
-  - gt_piano
-  - gt_tnhac
+  - gt_ddt
   - gt_dduong
+  - gt_dlich
+  - gt_dpt
+  - gt_dph
+  - gt_duoc
+  - gt_dvien
+  - gt_gdmn
+  - gt_htcn
+  - gt_kdqt
+  - gt_ktoan
+  - gt_ktpm
+  - gt_ktxd
+  - gt_ktys
+  - gt_kthh
+  - gt_ktruc
+  - gt_lkt
+  - gt_log
+  - gt_mar
+  - gt_mmt
+  - gt_nna
+  - gt_nntq
+  - gt_nhhang
+  - gt_oto
+  - gt_piano
+  - gt_phcn
+  - gt_qhcc
+  - gt_qhqt
+  - gt_qlbv
+  - gt_qphim
+  - gt_qtkd
+  - gt_qtks
+  - gt_qtnl
+  - gt_tcnh
+  - gt_tkdh
+  - gt_tknt
+  - gt_tlh
+  - gt_tmdt
+  - gt_tnmt
+  - gt_tnhac
+  - gt_vhvn
+  - gt_vlyk
+  - gt_vnh
+  - gt_xnyh
   - gt_yhdp
   - gt_ykhoa
-  - gt_xny
-  - gt_duochoc
-  - chnn_duochoc
-  - chnn_ktxnykhoa
-  - chnn_ktxnykhoa
-  - chnn_ykhoa
-  - chnn_yhduphong
-  - chnn_dduong
-  - chnn_tnhac
-  - chnn_piano
-  - chnn_dvien
+  
+  - chnn_cdt
+  - chnn_cnsh
+  - chnn_cntp
+  - chnn_cntt
   - chnn_ddien
-  - chnn_qphim
-  - chnn_tkdhoa
-  - chnn_vhvn
-  - chnn_nnanh
-  - chnn_nntq
-  - chnn_qhqte
-  - chnn_tlhoc
-  - chnn_dphoc
-  - chnn_vnhoc
-  - chnn_ttdaphuongtien
-  - chnn_qhcongchung
-  - chnn_qtkdoanh
-  - chnn_marketing
-  - chnn_kdqte
-  - chnn_tcnganhang
+  - chnn_ddt
+  - chnn_dduong
+  - chnn_dlich
+  - chnn_dpt
+  - chnn_dph
+  - chnn_duoc
+  - chnn_dvien
+  - chnn_gdmn
+  - chnn_htcn
+  - chnn_kdqt
   - chnn_ktoan
+  - chnn_ktpm
+  - chnn_ktxd
+  - chnn_ktys
+  - chnn_kthh
+  - chnn_ktruc
+  - chnn_lkt
+  - chnn_log
+  - chnn_mar
+  - chnn_mmt
+  - chnn_nna
+  - chnn_nntq
+  - chnn_nhhang
+  - chnn_oto
+  - chnn_piano
+  - chnn_phcn
+  - chnn_qhcc
+  - chnn_qhqt
+  - chnn_qlbv
+  - chnn_qphim
+  - chnn_qtkd
+  - chnn_qtks
+  - chnn_qtnl
+  - chnn_tcnh
+  - chnn_tkdh
+  - chnn_tknt
+  - chnn_tlh
+  - chnn_tmdt
+  - chnn_tnmt
+  - chnn_tnhac
+  - chnn_vhvn
+  - chnn_vlyk
+  - chnn_vnh
+  - chnn_xnyh
+  - chnn_yhdp
+  - chnn_ykhoa
+ 
+
 
 responses:
   utter_phuong_thuc_tuyen_sinh:
@@ -298,10 +331,10 @@ responses:
                 Ngành: Du lịch\n
                 Ngành: Quản lý tài nguyên & môi trường\n"
 
-  utter_gt_duochoc:
+  utter_gt_duoc:
     - text: "Dược học là lĩnh vực khoa học ứng dụng chuyên về bào chế, quản lý, phân phối thuốc và chăm sóc dược. Người hành nghề trong ngành Dược là Dược sỹ, được trang bị đầy đủ kiến thức, kỹ năng chuyên môn để tư vấn sử dụng thuốc an toàn, hiệu quả; để sản xuất, quản lý và cung ứng thuốc tốt, đáp ứng như cầu chăm sóc, bảo vệ sức khỏe người dân."
 
-  utter_gt_xny:
+  utter_gt_xnyh:
     - text: "Đây là một trong những ngành học có tính ứng dụng cao trong xu thế phát triển của xã hội hiện đại, với việc sử dụng máy móc thiết bị để phân tích bệnh nhằm phát hiện và cung cấp chính xác thông tin về tình trạng sức khỏe của người bệnh, làm căn cứ để bác sĩ đưa ra chuẩn đoán, tiên lượng bệnh và đưa ra phác đồ điều trị hiệu quả nhất. Ngoài ra, ngành Kỹ thuật Xét nghiệm y học còn đóng vai trò quan trọng trong An toàn Vệ sinh thực phẩm, dự phòng và tầm soát dịch tễ bệnh, đánh giá hiệu quả lâm sàng thuốc và vaccine trên thực địa."
 
   utter_gt_ykhoa:
@@ -334,7 +367,7 @@ responses:
   utter_gt_vhvn:
     - text: "Là ngành học thuộc khối khoa học xã hội và nhân văn giúp người học sử dụng thành thạo ngôn ngữ tiếng Việt để có thể nghiên cứu ngôn ngữ, văn hóa, văn minh, kinh tế, chính trị, xã hội Việt Nam qua đó góp phần lưu giữ, bảo tồn giá trị và phát triển văn hóa dân tộc."
 
-  utter_gt_nnanh:
+  utter_gt_nna:
     - text: "Là một ngành học nghiên cứu ngôn ngữ, giúp người học sử dụng thành thạo tiếng Anh trong các lĩnh vực văn hóa, xã hội, kinh doanh, thương mại, tài chính, du lịch, ngoại giap, quan hệ quốc tế. Với vai trò là ngôn ngữ quốc tế, tiếng Anh đã và đang mang đến nhiều cơ hội việc làm hấp dẫn trong tất cả các lĩnh vực ngành nghề khác nhau."
 
   utter_gt_nntq:
@@ -343,113 +376,119 @@ responses:
   utter_gt_qhqt:
     - text: "Đây là một ngành học nghiên cứu về các vấn đề ngoại giao liên quan đến các lĩnh vực như: kinh tế, chính trị, xã hội, lịch sử, con người, văn hóa,... của các nước thông qua hệ thống quốc tế."
 
-  utter_gt_tlhoc:
+  utter_gt_tlh:
     - text: "Đây là ngành khoa học nghiên cứu về tâm trí và hành vi, về mặt ý thức, vô thức và tư duy của con người. Tâm lý học giúp con người hiểu rõ hơn góc khuất trong tâm hồn của chính mình đồng thời là cơ hội thấu hiểu những tâm tư, tình cảm, nguyện vọng của người khác,... từ đó có thể giúp tháo gỡ những khó khăn, vướng mắc mà người thân và gia đình gặp phải."
 
-  utter_gt_dphoc:
+  utter_gt_dph:
     - text: "Là ngành học nghiên cứu về ngôn ngữ, văn hóa, lịch sử, địa lí, kinh tế, xã hội của các quốc gia phương Đông. Thông qua việc nắm bắt Ngôn ngữ Hàn Quốc hoặc Ngôn ngữ Nhật Bản tạo nền tảng để người học sử dụng thành thạo ngôn nghữ Hàn và ngôn ngữ Nhật trong các lĩnh vực của đời sống xã hội."
 
-  utter_gt_vnhoc:
+  utter_gt_vnh:
     - text: "Đây là ngành khoa học nghiên cứu đất nước và con người Việt Nam từ nền văn hóa, lịch sử, địa lý đến phong tục tập quán, ngôn ngữ, văn học,... nhằm đem đến cho người học những kiến thức cơ bản và toàn diện về đất nước, con người Việt Nam từ quá khứ đến hiện đại."
 
-  utter_gt_ttdaphuongtien:
+  utter_gt_dpt:
     - text: "Truyền thông đa phương tiện (Multimedia) là ngành ứng dụng công nghệ thông tin vào việc sáng tạo, thiết kế những sản phẩm mang tính ứng dụng và tương tác trong các lĩnh vực truyền thông - quảng cáo - giáo dục - nghệ thuật - giải trí."
 
-  utter_gt_qhcongchung:
+  utter_gt_qhcc:
     - text: "Quan hệ công chúng (hay còn gọi là PR), đây là một lĩnh vực thuộc khối xã hội nhân văn, một trong những nghệ thuật quản lý các quan hệ giao tiếp trong cộng đồng để tạo dựng và gìn giữ hình ảnh tích cực cho tổ chức, doanh nghiệp. Nói một cách khác, người làm PR là người hoạch định chiến lược, kế hoạch để giữ gìn, phát triển mối quan hệ hai chiều giữa doanh nghiệp và công chúng."
 
-  utter_gt_qtkdoanh:
+  utter_gt_qtkd:
     - text: "Đây là một trong những ngành thuộc khối kinh tế liên quan đến việc quản trị quá trình kinh doanh nhằm duy trì và phát triển công việc kinh doanh của doanh nghiệp. Quản trị kinh doanh bao gồm cả việc tạo ra hệ thống, quy trình quản lý để tối ưu hiệu suất công việc, quản lý và phát triển doanh nghiệp."
 
-  utter_gt_marketing:
+  utter_gt_mar:
     - text: "Marketing là ngành học liên quan đến các hoạt động nghiên cứu thị trường, hướng đến khách hàng, tạo dựng mối quan hệ giữa doanh nghiệp với khách hàng. Đây là ngành giữ vai trò chính yếu trong hoạt động kinh doanh của một doang nghiệp vì giúp tạo được lợi nhuận thông qua đáp ứng nhu cầu khách hàng."
 
-  utter_gt_kdqte:
+  utter_gt_kdqt:
     - text: "Đây là ngành liên quan đế toàn bộ các hoạt động giao dịch, kinh doanh được thực hiện giữa các quốc gia, nhằm thỏa mãn các mục tiêu kinh doanh của doanh nghiệp, các nhân và các tổ chức kinh tế."
 
-  utter_gt_tcnganhang:
+  utter_gt_tcnh:
     - text: "Đây là một ngành thuộc lĩnh vực kinh tế bao gồm toàn bộ các hoạt động liên quan đến giao dịch tiền tệ và kinh doanh thông qua ngân hàng. Hay nói cách khác đây là ngành tập trung cụ thể đến các lĩnh vực về tài chính và lưu thông tiền tệ."
 
   utter_gt_ktoan:
     - text: "Đây là một trong những ngành 'hot' trên thị trường lao động hiện nay bởi bất cứ một tổ chức hay doanh nghiệp dù lớn hay nhỏ đều phải cần đến. Kế toán là lĩnh vực liên quan đến việc thực hiện quá trình thu thập, xử lý, kiểm tra thông tin về kinh tế tài chính cho các đối tượng có nhu cầu sử dụng."
 
-  utter_gt_tmdientu:
+  utter_gt_tmdt:
     - text: "Đây là ngành chuyên nghiên cứu về các hoạt động thương mại thông qua những phương tiện điện tử hiện đại, từ đó giúp cho hoạt động thương mại diễn ra nhanh hơn, hiệu quả hơn, tiết kiệm chi phí, mở rộng không gian kinh doanh."
 
-  utter_gt_qtnhanluc:
+  utter_gt_qtnl:
     - text: "Đây là ngành nghiên cứu trong việc cung cấp các giải pháp, kỹ năng để phát triển và ổn định nguồn nhân lực trong tổ chức, công ty. Cụ thể là các kế hoạch khai thác, tổ chức, quản lý, kiểm soát mọi công việc liên quan đến thu hút, sử dụng và phát triển nguồn lao động trong doanh nghiệp một cách hợp lý, hiệu quả."
 
-  utter_gt_luatkt:
+  utter_gt_lkt:
     - text: "Luật kinh tế là ngành nghiên cứu và vận dụng những quy định pháp luật do Nhà nước ban hành để điều chỉnh các quan hệ kinh tế phát sinh trong quá trình quản lý kinh tế. Hiện nay, Luật kinh tế được xem là một ngành “hot” thu hút nhiều bạn trẻ bởi có nhiều cơ hội việc làm và có nhiều tiềm năng phát triển nghề nghiệp trong tương lai."
 
-  utter_gt_cnshoc:
+  utter_gt_cnsh:
     - text: "Đây là một trong những lĩnh vực công nghệ cao sử dụng công nghệ hiện đại tạo ra các sản phẩm có nguồn gốc từ sinh vật để phục vụ cuộc sống như: giống cây trồng và vật nuôi chất lượng cao, protein, các chủng vi sinh vật có lợi… ứng dụng trong công nghiệp, nông nghiệp công nghệ cao, y dược và các lĩnh vực khác…"
 
-  utter_gt_ktphanmem:
+  utter_gt_ktpm:
     - text: "Ngành Kỹ thuật phần mềm là ngành chuyên sâu của lĩnh vực công nghệ thông tin, chuyên nghiên cứu và ứng dụng các công nghệ và ngôn ngữ lập trình hiện đại để tạo các chương trình điều khiển máy tính cùng các thiết bị hoạt động theo yêu cầu và mong muốn của con người trong công việc và cuộc sống."
 
-  utter_gt_mmt_ttdulieu:
+  utter_gt_mmt:
     - text: "Ngành Mạng máy tính & Truyền thông dữ liệu là một trong các nhóm ngành thuộc lĩnh vực công nghệ thông tin, chuyên nghiên cứu ứng dụng kiến trúc và nguyên lý hoạt động của các loại mạng máy tính và truyền thông để phân tích, thiết kế, xây dựng, bảo mật, an ninh và quản trị một hệ thống mạng, từ mạng nội bộ cho đến mạng diện rộng."
 
   utter_gt_cnnt:
     - text: "Ngành Công nghệ thông tin là ngành cốt lõi của cuộc cách mạng công nghiệp 4.0. Là ngành sử dụng công nghệ hiện đại dựa trên máy tính, thiết bị và mạng truyền thông để thu thập, xử lý, khai thác, bảo mật, xuất và truyền dẫn thông tin phục vụ cho các ngành nhằm đáp ứng tốt hơn cho nhu cầu con người và cuộc sống cộng đồng."
 
-  utter_gt_cnktcdientu:
+  utter_gt_cdt:
     - text: "Đây là ngành học có sự kết hợp của kỹ thuật cơ khí, kỹ thuật điện tử và công nghệ thông tin nhằm thiết kế, chế tạo, vận hành máy móc và thiết bị tự động hóa tạo ra những sản phẩm thông minh ứng dụng trong các lĩnh vực của đời sống. Robot chính là sản phẩm tiêu biểu của ngành Kỹ thuật Cơ điện tử."
 
-  utter_gt_cnktoto:
+  utter_gt_oto:
     - text: "Đây là ngành học tích hợp kiến thức của các lĩnh vực cơ khí, công nghệ chế tạo máy, điện - điện tử, tự động hóa vào việc thiết kế, khai thác, sử dụng và quản lý dịch vụ kỹ thuật liên quan tới ô tô như: bảo trì, bảo dưỡng, sửa chữa ô tô; điều hành sản xuất phụ tùng, lắp ráp ô tô; cải tiến, nâng cao hiệu quả sử dụng ô tô."
 
-  utter_gt_cnktdien_dientu:
+  utter_gt_ddt:
     - text: "Đây là ngành áp dụng tri thức kỹ thuật - công nghệ và kỹ năng nhằm thiết kế, quản lý, vận hành và bảo trì các hệ thống điện công nghiệp, hệ thống điện, điện tử, hệ thống tự động hóa trong công nghiệp và dân dụng."
 
-  utter_gt_cnkthhoc:
+  utter_gt_kthh:
     - text: "Đây là ngành thuộc lĩnh vực khoa học và công nghệ, trong việc nghiên cứu và ứng dụng những kiến thức hóa học và kỹ thuật vào quá trình sản xuất các sản phẩm hóa học phục vụ công nghiệp và đời sống, đặc biệt trong các lĩnh vực: lọc - hóa dầu, hóa dược, mỹ phẩm. sản xuất sản phẩm hóa hữu cơ, hóa vô cơ…"
 
-  utter_gt_logistic:
+  utter_gt_log:
     - text: "Đây là ngành nghiên cứu, phát triển và quản trị các dịch vụ vận chuyển trong quá trình sản xuất kinh doanh, đồng thời đào tạo những chuyên gia đưa ra chiến lược vận chuyển hàng hóa đến khắp nơi trên thế giới một cách hiệu quả, tạo ra những giá trị gia tăng làm hài lòng khách hàng của một thương hiệu hay doanh nghiệp."
 
-  utter_gt_kthtcnghiep:
+  
+  
+  utter_gt_htcn:
     - text: "Đây là ngành đào tạo ra những kỹ sư kỹ thuật hệ thống công nghiệp chuyên điều hành các hoạt động sản xuất, dịch vụ, cung ứng, dự án cho doanh nghiệp, công ty, cơ sở sản xuất, cơ sở dịch vụ. Do đó ngành này còn được gọi là Kỹ thuật Công nghiệp, Quản lý Công nghiệp."
 
-  utter_gt_ktysinh:
+  utter_gt_ktys:
     - text: "Kỹ thuật y sinh là ngành khoa học ứng dụng các thành tựu hiện đại, vận dụng sự hiểu biết liên quan đến sự sống con người và áp dụng khoa học kỹ thuật hiện đại (cơ khí, quang học, điện, điện tử, tin học, hóa học...) vào việc nghiên cứu và chế tạo ra các thiết bị, vật liệu đặc biệt để tác động lên cơ thể sống của con người nhằm chẩn đoán và đưa ra phương pháp điều trị một cách có hiệu quả."
 
-  utter_gt_vlykhoa:
+  utter_gt_vlyk:
     - text: "Vật lý y khoa là ngành khoa học ứng dụng các kiến thức vật lý và các đặc trưng tương tác của bức xạ với vật chất cũng như các nguyên lý hoạt động của các thiết bị để khám chữa bệnh."
 
-  utter_gt_cntpham:
+  utter_gt_cntp:
     - text: "Đây là ngành chuyên về lĩnh vực bảo quản, chế biến nông sản; kiểm tra, đánh giá chất lượng sản phẩm hoặc nghiên cứu phát triển sản phẩm mới. Ngành học này được ứng dụng nhiều trong lĩnh vực ăn uống, an toàn thực phẩm... nhằm tối ưu hóa dinh dưỡng trong việc phục vụ nhu cầu ăn uống của cộng đồng."
 
   utter_gt_ktruc:
     - text: "Là ngành học đào tạo ra kiến trúc sư tương lai. Ngành học đặc thù nằm giữa hai lĩnh vực nghệ thuật và kỹ thuật liên quan đến việc tổ chức sắp xếp không gian, lập hồ sơ thiết kế các công trình kiến trúc. Công việc của một kiến trúc sư là thiết kế mặt bằng, không gian, cấu trúc... của một công trình."
 
-  utter_gt_tknthat:
+  utter_gt_tknt:
     - text: "Đây là một ngành học tổng hợp giữa các yếu tố mang tính nghệ thuật, mỹ thuật và kỹ thuật – công nghệ, trong đó dựa trên sự phối hợp hài hòa giữa màu sắc, ánh sáng, thẩm mỹ kiến trúc, các vật trang trí... để thiết kế một không gian sống, không gian làm việc, không gian thư giãn..., cho công trình xây dựng như: nhà ở, văn phòng, khách sạn,..."
 
-  utter_gt_ktxdung:
+  utter_gt_ktxd:
     - text: "Đây là ngành có liên quan đến các lĩnh vực tư vấn, thiết kế, tổ chức thi công, quản lý giám sát và nghiệm thu các công trình xây dựng dân dụng, công trình xây dựng công nghiệp phục vụ đời sống con người như: đường cao tốc, nhà cao tầng, bệnh viện, trường học, nhà xưởng, trung tâm thương mại, cảng biển, sân bay…"
 
-  utter_gt_qtksan:
+  utter_gt_qtks:
     - text: "Đây là ngành nghiên cứu về các đặc thù của ngành công nghiệp khách sạn từ khâu quản lý, tổ chức các hoạt động của khách sạn đến việc cung cấp các dịch vụ lưu trú, dịch vụ ẩm thực và dịch vụ bổ sung... Đồng thời tạo ra mối liên kết chặt chẽ với từng bộ phận trong khách sạn giúp mang lại cho khách hàng cảm giác thoải mái nhất với dịch vụ mà họ trải nghiệm."
 
-  utter_gt_qtnhang:
+  utter_gt_nhhang:
     - text: "Đây là ngành học về lĩnh vực quản lý khách sạn, nhà hàng thuộc phương diện văn hóa ẩm thực. Cụ thể là quản lý các khâu về ẩm thực, yến tiệc, hội nghị, sự kiện... Với ngành học này, sinh viên được trang bị kiến thức, kỹ năng kinh doanh các dịch vụ về nhà hàng và ẩm thực như: quản trị chất lượng du lịch, phân tích du lịch, phương pháp xây dựng khẩu phần, thực đơn…"
 
   utter_gt_dlich:
     - text: "Du lịch hiện đang là một trong những ngành “công nghiệp không khói” có tốc độ tăng trưởng nhanh với những đóng góp to lớn trong việc phát triển kinh tế xã hội và quảng bá hình ảnh đất nước ra toàn thế giới. Nhiều bạn trẻ có mong muốn được trải nghiệm một công việc được đi nhiều nơi, biết nhiều nền văn hóa thì ngành Du lịch là một gợi ý cho các bạn."
 
-  utter_gt_qltnmt:
+  utter_gt_tnmt:
     - text: "Đây là ngành học kết hợp giữa hai khối kiến thức KHTN và KHXH nhằm nghiên cứu mối quan hệ giữa các nguồn tài nguyên thiên nhiên, môi trường tự nhiên và các hoạt động sống. của con người, qua đó tìm ra các phương thức đánh giá, quản lý, bảo vệ, khôi phục các nguồn tài nguyên và môi trường."
 
-
+  utter_gt_gdmn:
+    - text: "Ngành giáo dục mầm non là lĩnh vực đào tạo và giáo dục trẻ em từ 0 - 6 tuổi, tập trung vào việc phát triển và nuôi dưỡng trí tuệ, tính cách và kỹ năng của trẻ để giúp chúng phát triển toàn diện và chuẩn bị tốt nhất cho tương lai."
+  
+  
+  
   utter_hp_cntt:
     - text: "Ngành Công nghệ thông tin với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
   utter_hp_duoc:
     - text: "Ngành Dược học với thời gian đào tạo là 5 năm, học phí trung bình một kì khoảng  14 triệu đồng."
 
-  utter_hp_y:
+  utter_hp_ykhoa:
     - text: "Ngành Y khoa với thời gian đào tạo là 6 năm, học phí trung bình một kì khoảng  26 triệu đồng."
 
   utter_hp_yhdp:
@@ -509,7 +548,7 @@ responses:
   utter_hp_tkdh:
     - text: "Ngành Thiết kế đồ họa với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_tv:
+  utter_hp_vhvn:
     - text: "Ngành Tiếng Việt và văn hóa Việt Nam với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
 
   utter_hp_nna:
@@ -581,7 +620,7 @@ responses:
   utter_hp_qtks:
     - text: "Ngành Quản trị khách sạn với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
 
-  utter_hp_qtnhhang:
+  utter_hp_nhhang:
     - text: "Ngành Quản trị nhà hàng và dịch vụ ăn uống với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
 
   utter_hp_tnmt:
@@ -590,6 +629,9 @@ responses:
   utter_hp_gdmn:
     - text: "Ngành Giáo dục mầm non là ngành mới với thời gian đào tạo là 3.5 năm, chưa có mức học phí cụ thể."
 
+  utter_hp_vlyk:
+    - text: "Ngành Vật lý y khoa là ngành với thời gian đào tạo là 4 năm, học phí trung bình một học kì khoảng 11 triệu đồng."
+  
   utter_hoc_bong:
     - text: "- SV hoàn thành tất cả các học phần đã đăng ký trong năm học (gồm cả 3 học kỳ trong năm học);\n
              - Điểm trung bình chung của năm học đặt từ 2.5 trở lên theo thang điểm 4;\n
@@ -598,7 +640,7 @@ responses:
              - Kết quả rèn luyện từ loại khá trở lên"
 
 
-  utter_chnn_duochoc:
+  utter_chnn_duoc:
     - text: "Cơ hội nghề nghiệp:\n
           - Cán bộ quản lý, phụ trách kỹ thuật tại các cơ sở sản xuất dược phẩm: Phòng Nghiên cứu phát triển thuốc (R&D), đảm bảo chất lượng thuốc (QA), kiểm soát chất lượng thuốc (QC), sản xuất thuốc, thủ kho tại xí nghiệp sản xuất Dược phẩm.\n
           - Quản lý chuyên môn và tư vấn, hướng dẫn sử dụng thuốc tại các cơ sở khám chữa bệnh, hệ thống bán lẻ, cơ sở kinh doanh và nhập khẩu thuốc.\n
@@ -606,7 +648,7 @@ responses:
           - Cán bộ kiểm nghiệm thuốc, mỹ phẩm và thực phẩm chức năng tại các cơ sở, trung tâm kiểm nghiệm và viện kiểm nghiệm.\n
           - Làm việc tại cơ quan quản lý Nhà nước về Dược, Phòng Y tế, Sở Y tế, Bộ Y tế, ..."
 
-  utter_chnn_ktxnykhoa:
+  utter_chnn_xnyk:
     - text: "Cơ hội nghề nghiệp: 
           • Đủ khả năng làm việc tại các bệnh viện từ tuyến cơ sở đến Trung ương, Viện nghiên cứu, Trung tâm y tế, Công ti, Xí nghiệp.\n
           • Tham gia giảng dạy tại các cơ sở đào tạo cán bộ y tế hay tại khoa Kỹ thuật xét nghiệp y học của các trường Đại học."
@@ -618,7 +660,7 @@ responses:
           • Giảng dạy, nghiên cứu tại các trường đại học, cao đẳng có đào tạo ngành y đa khoa.\n
           • Chuyên viên nghiên cứu tại các lĩnh vực thuộc khoa học sức khỏe, y dược, y sinh, công nghệ y dược,..."
 
-  utter_chnn_yhduphong:
+  utter_chnn_yhdp:
     - text: "Cơ hội nghề nghiệp:\n
           • Làm việc tại các cơ sở y tế, Cục Y học dự phòng, trung tâm y tế dự phòng từ trung ương đến địa phương.\n
           • Làm việc tại các phòng tiêm chủng vaccine, phòng chống bệnh dịch, tham gia vào công tác truyền thông giáo dục sức khỏe tại các trường học, bệnh viện, cơ quan nhà nước.\n
@@ -664,7 +706,7 @@ responses:
           • Giảng dạy tại các trường đại học, trường dạy nghề và các cơ sở đào tạo khác.\n
           • Có thể trở thành một nhà quay phim tự do, làm việc độc lập, khởi nghiệp về lĩnh vực quảng cáo - truyền thông hoặc đi quay theo các đơn đặt hàng."
 
-  utter_chnn_tkdhoa:
+  utter_chnn_tkdh:
     - text: "Cơ hội nghề nghiệp:\n
           • Chuyên gia thiết kế tại các công ty truyền thông, quảng cáo, nhà xuất bản, tạp chí,... các tổ chưc doanh nghiệp chuyên về thiết kế đồ họa.\n
           • Làm việc với các vị trí thiết kế hoặc quản lý thiết kế tại các công ty trong và ngoài nước.\n
@@ -676,7 +718,7 @@ responses:
           • Giảng dạy/Nghiên cứu ngôn ngữ/văn hóa Việt Nam ở các viện văn học, ngôn ngữ, văn hóa, trung tâm nghiên cứu khoa học xã hội và nhân văn trung ương và địa phương.\n
           • Làm việc tại cơ quan ngoại giao các tổ chức quốc tế, các cơ quan hợp tác kinh tế, văn hóa của Việt Nam ở nước ngoài."
 
-  utter_chnn_nnanh:
+  utter_chnn_nna:
     - text: "Cơ hội nghề nghiệp:\n
           • Biên - phiên dịch viên tại các cơ quan ngoại giao, tổ chức phi chính phủ.\n
           • Chuyên viên truyền thông tổ chức sự kiện.\n
@@ -694,12 +736,12 @@ responses:
           • Hướng dẫn viên du lịch.\n
           • Giảng viên, nghiên cứu viên tại các cơ sở đào tạo, viện nghiên cứu Ngôn ngữ - Văn hóa Trung Quốc."
 
-  utter_chnn_qhqte:
+  utter_chnn_qhqt:
     - text: "Cơ hội nghề nghiệp:\n
           • Cử nhân ngành Quan hệ Quốc tế có thể đảm đương congp tác đối ngoại và hợp tác quốc tế tại các cơ quan, công ti, tổ chức xã hội, tổ chức phi chính phủ, các tập đoàn đa quốc gia, công ti liên doanh, doanh nghiệp hoặc làm việc trong các ngành ngoại giao, giáo dục, du lịch, truyền thông.\n
           • Có năng lực tự học, tự nghiên cứu và tham gia học tập ở bậc cao hơn tại Việt Nam và nước ngoài."
 
-  utter_chnn_tlhoc:
+  utter_chnn_tlh:
     - text: "Cơ hội nghề nghiệp:\n
           • Chuyên viên trị liệu tâm lý tại các trung tâm, bệnh viện.\n
           • Nghiên cứu khoa học tâm lý tại các viện, trung tâm, cơ quan điều tra tâm lý tội phạm.\n
@@ -708,7 +750,7 @@ responses:
           • Giảng dạy, nghiên cứu chuyên sâu ở các trường cao đẳng, đại học.\n
           • Mở các trung tâm tư vấn, trị liệu tâm lý."
 
-  utter_chnn_dphoc:
+  utter_chnn_dph:
     - text: "Cơ hội nghề nghiệp:\n
           • Biên - Phiên dịch viên tại các cơ quan ngoại giao, tôt chức phi chính phủ.\n
           • Phóng viên, Biên tập tại các cơ quan thông tấn báo chí.\n
@@ -717,7 +759,7 @@ responses:
           • Hướng dẫn viên du lịch, lễ tân Nhà hàng, khách sạn.\n
           • Giảng viên, nghiên cứu viên tại các cơ sở đào tạo, viện nghiên cứu về ngôn ngữ Hàn Quốc hoặc Nhật Bản."
 
-  utter_chnn_vnhoc:
+  utter_chnn_vnh:
     - text: "Cơ hội nghề nghiệp:\n
           • Hướng dẫn viên du lịch, chuyên viên viện bảo tàng.\n
           • Tư vấn về Việt Nam học cho các công ty, tập đoàn quốc tế tại Việt Nam.\n
@@ -725,21 +767,21 @@ responses:
           • Chuyên viên, biên tập viên tại các tờ báo, tạp chí, các cơ quan truyền thông và xuất bản.\n
           • Giảng dạy về ngành Việt Nam học cho sinh viên bậc cao đẳng hoặc cho người nước ngoài."
 
-  utter_chnn_ttdaphuongtien:
+  utter_chnn_dpt:
     - text: "Cơ hội nghề nghiệp:\n
           • Xây dựng các nội dung đa phương tiện (hình ảnh, âm thanh, video) phục vụ trong các lĩnh vực truyền thông, giải trí, truyền hình, điện ảnh, báo chí, internet, quảng cáo.\n
           • Làm trong các lĩnh vực quảng cáo, chuyên viên chăm sóc khách hàng.\n
           • Chuyên viên quản trị web, chuyên viên quản lý sự kiện, chuyên viên mạng xã hội, chuyên viên quan hệ công chúng.\n
           • Giảng dạy các môn học thuộc ngành truyền thông đa phương tiện ở các cơ sở đào tạo."
 
-  utter_chnn_qhcongchung:
+  utter_chnn_qhcc:
     - text: "Cơ hội nghề nghiệp:\n
           • Chuyên viên PR: phụ trách quan hệ báo chí, quan hệ cộng đồng, tổ chức sự kiện, tổ chức truyền thông nội bộ tại các cơ quan, doanh nghiệp nhà nước và tư nhân, các tổ chức kinh tế, quốc tế và các tổ chức xã hội, phi chính phủ.\n
           • Phóng viên, biên tập viên tại các cơ quan báo, tạp chí, hãng thông tấn, đài phát thanh, đài truyền hình và các kênh truyền thông.\n
           • Chuyên viên phân tích và tư vấn quan hệ công chúng tại các công ty, tổ chức tư vấn quản trị truyền thông doanh nghiệp, các Bộ và Sở, Ban, Ngành liên quan đến truyền thông.\n
           • Nghiên cứu và giảng dạy về PR trong các cơ sở giáo dục đại học, cao đẳng."
 
-  utter_chnn_qtkdoanh:
+  utter_chnn_qtkd:
     - text: "Cơ hội nghề nghiệp:\n
           • Công tác quản lý tại các doang nghiệp có vốn đầu tư nước ngoài, các tập đoàn, công ty đa quốc gia.\n
           • Chuyên gia trong lĩnh vực kinh doanh, bán hàng, marketing, chứng khoán, nghiên cứu thị trường, quản lý sản xuất, quản trị chất lượng, xuất nhập khẩu.\n
@@ -747,21 +789,21 @@ responses:
           • Khởi nghiệp, phát triển và quản lý công ty.\n
           • Giảng dạy tại các trường đại học, cao đẳng."
 
-  utter_chnn_marketing:
+  utter_chnn_mar:
     - text: "Cơ hội nghề nghiệp:\n
           • Làm việc trong các loại hình doanh nghiệp khác nhau như các công ty liên doanh, tập đoàn đa quốc gia, các công ty quảng cáo, công ty truyền thông.\n
           • Chuyên gia trong phát triển và quản trị thương hiệu.\n
           • Chuyên viên phân tích chiến dịch marketing.\n
           • Làm việc tại các công ty hoạt động trong lĩnh vực quảng cáo, marketing, chuyên viên nghiên cứu và khảo sát thị trường, chuyên viên chăm sóc khách hàng."
 
-  utter_chnn_kdqte:
+  utter_chnn_kdqt:
     - text: "Cơ hội nghề nghiệp:\n
           • Chuyên viên nghiên cứu thị trường, chuyên viên kinh doanh, chuyên viên phân phối, quản lý thương mại quốc tế.\n
           • Chuyên viên xuất nhập khẩu, marketing, tư vấn kinh doanh quốc tế, giao dịch viên quốc tế.\n
           • Chuyên viên nghiên cứu, hoạch định chính sách tại các cơ quan quản lý nhà nước.\n
           • Giảng viên, nghiên cứu viên tại các cơ sở đào tạo, viện nghiên cứu về lĩnh vực kinh doanh."
 
-  utter_chnn_tcnganhang:
+  utter_chnn_tcnh:
     - text: "Cơ hội nghề nghiệp:\n
           • Chuyên viên phụ trách phân tích tài chính, kinh doanh tiền tệ,... tại các ngân hàng thương mại, tổ chức tín dụng, công ty tài chính đa quốc gia, công ty chứng khoán, công ty bảo hiểm.\n
           • Làm việc tại các cơ quan nhà nước như thuế, hải quan. Chuyên viên chăm sóc khách hàng tại các ngân hàng, công ty.\n
@@ -774,7 +816,7 @@ responses:
           • Có năng lực công tác ở các vị trí như kế toán trưởng, trưởng phòng kế toán, giám đốc điều hành, tổng giám đốc,...\n
           • Có khả năng giảng dạy, nghiên cứu khoa học chuyên môn tại các trường và các cơ quan nghiên cứu khoa học, viện nghiên cứu."
 
-  chnn_tmdt:
+  utter_chnn_tmdt:
     - text: "Cơ hội nghề nghiệp: \n
           • Chuyên viên kinh doanh trực tuyến, marketing trực tuyến quảng bá và mở rộng thị trường.
           • Chuyên viên tư vấn hoạch định chiến lược, phát triển hệ thống logistics, xây dựng và bảo trì các dự án số hoá hệ thống kinh doanh.
@@ -830,27 +872,27 @@ responses:
           • Lập trình viên, các nhà quản trị hệ thống công nghệ thông tin. 
           • Cán bộ nghiên cứu, giảng dạy về công nghệ thông tin tại các viện và cơ sở đào tạo."
 
-  utter_chnn_cnktcdientu:
+  utter_chnn_cdt:
     - text: "Cơ hội nghề nghiệp: \n
           • Đảm nhận công việc thiết kế hệ thống Cơ điện tử, thiết lập kiểm soát tự động cho quy trình sản xuất, vận hành, bảo trì, sửa chữa các thiết bị mua sắm và chuyển giao công nghệ cho các công ty, nhà máy, xí nghiệp.
           • Làm việc trong phòng nghiên cứu và phát triển sản phẩm của công ty, nhà máy, xí nghiệp, các viện nghiên cứu thuộc chuyên ngành cơ điện tử, cơ khí, điện tử và điều khiển tự động hóa.
           • Tham gia công tác giảng dạy chuyên ngành cơ điện tử, điện tử và điều khiển tự động trong các trường đại học, cao đẳng và trung cấp."
 
-  utter_chnn_cnktoto:
+  utter_chnn_oto:
     - text: "Cơ hội nghề nghiệp: \n
           • Kỹ sư vận hành, giám sát sản xuất phụ tùng, phụ kiện và lắp ráp ô tô tại các nhà máy sản xuất, các cơ sở sửa chữa, bảo trì bảo dưỡng ô tô.
           • Cố vấn dịch vụ, nhân viên kinh doanh tại các doanh nghiệp kinh doanh ô tô, máy động lực, phụ tùng ô tô.
           • Chuyên viên kỹ thuật của các công ty, nhà máy, xí nghiệp, viện nghiên cứu chuyên ngành cơ khí ô tô và cơ khí động lực hay giáo viên giảng dạy trong các trường cao đẳng, đại học.
           • Có cơ hội thăng tiến lên cấp quản lý và cơ hội khởi nghiệp trong lĩnh vực công nghệ kỹ thuật ô tô."
 
-  utter_chnn_cnktdien_dientu:
+  utter_chnn_ddt:
     - text: "Cơ hội nghề nghiệp: \n
           • Đảm nhận các công việc trong các lĩnh vực thiết kế, lắp đặt, thi công, bảo trì và giám sát các hệ thống điện công nghiệp, hệ thống điện, điện tử, hệ thống tự động hóa trong công nghiệp và dân dụng.
           • Làm việc trong phòng nghiên cứu và phát triển sản phẩm của công ty, nhà máy, xí nghiệp, các viện nghiên cứu thuộc chuyên ngành điện, điện tử và tự động hóa.
           • Tham gia công tác giảng dạy tại các trường đại học, cao đẳng và trung cấp.
           • Có cơ hội khởi nghiệp trong lĩnh vực sản xuất, cung cấp các giải pháp công nghệ ứng dụng kỹ thuật điện, điện tử và tự động hóa."
 
-  utter_chnn_cnkthhoc:
+  utter_chnn_kthh:
     - text: "Cơ hội nghề nghiệp: \n
           • Kỹ sư thiết kế, vận hành và quản lý kỹ thuật tại các công ty, nhà máy hoạt động trong lĩnh vực hóa học, thực phẩm, môi trường…
           • Kỹ thuật viên trong phòng thí nghiệm, các cơ quan kiểm định, đánh giá chất lượng sản phẩm.
@@ -858,14 +900,14 @@ responses:
           • Tham gia giảng dạy ở các cơ quan nghiên cứu, cơ sở giáo dục trong lĩnh vực công nghệ kỹ thuật hóa học.
           • Kinh doanh và khởi nghiệp."
 
-  utter_chnn_logistic:
+  utter_chnn_log:
     - text: "Cơ hội nghề nghiệp: \n
           • Quản lý Logistics tại các công ty logistics, vận tải, bảo hiểm, hàng không, E-commerce.
           • Chuyên viên lập kế hoạch, marketing, dịch vụ khách hàng, quản lý kho vận, giao nhận tại các công ty có nhu cầu.
           • Chuyên viên cơ quan nhà nước (công thương, giao thông vận tải, hải quan, bưu điện).
           • Tự khởi nghiệp, làm chủ và điều hành công ty dịch vụ logistics, vận tải."
 
-  utter_chnn_kthtcnghiep:
+  utter_chnn_htcn:
     - text: "Cơ hội nghề nghiệp: \n
           • Làm việc tại phòng kỹ thuật, phòng thiết kế hay phòng bảo trì trong các nhà máy.
           • Làm việc trong nhà máy, làm việc cả trong các đơn vị vận tải, công ty xây dựng, công ty logistics, trường học...
@@ -875,7 +917,7 @@ responses:
           • Chuyên viên cung ứng vật tư (tính toán nhu cầu vật tư để thu mua).
           • Chuyên viên kho vận (nhận và lưu kho sao cho an toàn, hiệu quả)."
 
-  utter_chnn_ktysinh:
+  utter_chnn_ktys:
     - text: "Cơ hội nghề nghiệp: \n
           • Chuyên viên kỹ thuật đảm bảo về các thiết bị y tế trong các bệnh viện.
           • Nhân viên phân phối trang thiết bị y tế cho các công ty.
@@ -885,7 +927,7 @@ responses:
           • Giảng dạy tại các trường cao đẳng, trung cấp thiết bị y tế.
           • Tự mở công ty hoạt động trong lĩnh vực trang thiết bị y tế."
 
-  utter_chnn_vlykhoa:
+  utter_chnn_vlyk:
     - text: "Cơ hội nghề nghiệp: \n
           • Làm việc tại các khoa xạ trị, chẩn đoán hình ảnh, y học hạt nhân của các bệnh viện, phòng khám, công việc cụ thể:
           • Lập kế hoạch xạ trị ung thư. 
@@ -897,7 +939,7 @@ responses:
           • Công ty kinh doanh thiết bị y tế, Trung tâm kiểm định thiết bị y tế.
           • Cơ quan quản lý nhà nước về an toàn bức xạ, quản lý trang thiết bị y tế."
 
-  utter_chnn_cntpham:
+  utter_chnn_cntp:
     - text: "Cơ hội nghề nghiệp: \n
           • Đảm nhiệm những vị trí trong các doanh nghiệp sản xuất - kinh doanh thực phẩm, trường cao đẳng/đại học, các viện/trung tâm phân tích, nghiên cứu.
           • Nghiên cứu và phát triển sản phẩm thực phẩm.
@@ -914,26 +956,26 @@ responses:
           • Tự thành lập doanh nghiệp riêng trong lĩnh vực thiết kế và thi công xây dựng.
           • Tham gia giảng dạy, nghiên cứu về lĩnh vực kiến trúc tại các cơ sở đào tạo, các trường đại học, cao đẳng..."
 
-  utter_chnn_tknthat:
+  utter_chnn_tknt:
     - text: "Cơ hội nghề nghiệp: \n
           • Chuyên viên thiết kế tại các công ty thiết kế nội thất, xây dựng, kinh doanh vật liệu nội thất.
           • Chuyên viên tư vấn thiết kế cho các công trình dân dụng và công nghiệp như nhà ở, khách sạn, trường học, văn phòng, bệnh viện, nhà máy, khu triển lãm…
           • Tổ chức thành lập công ty chuyên ngành thiết kế trong các lĩnh vực chuyên ngành nội thất.
           • Tham gia giảng dạy ở các trường đại học, các cơ quan nghiên cứu, đào tạo chuyên ngành thiết kế nội thất."
 
-  utter_chnn_ktxdung:
+  utter_chnn_ktxd:
     - text: "Cơ hội nghề nghiệp: \n
           • Công việc trong văn phòng: kỹ sư thiết kế kỹ sư quản lý dự án; chuyên viên tư vấn xây dựng, chuyên viên lập hồ sơ mời thầu và đánh giá hồ sơ đấu thầu…
           • Công việc tại công trường: Kỹ sư thi công (hướng dẫn thực hiện các khâu đọc hiểu bản vẽ thiết kế, tính toán khối lượng phải làm, hướng dẫn công nhân thực hiện công việc, lập bản vẽ hoàn công, công tác trắc đạc); kỹ sư giám sát thi công, chỉ huy trưởng công trình…
           • Công việc trong công xưởng: Kỹ sư giám sát nội bộ; kỹ sư quản lý chất lượng, chuyên viên phát triển sản phẩm..."
 
-  utter_chnn_qtksan:
+  utter_chnn_qtks:
     - text: "Cơ hội nghề nghiệp: \n
           • Nhân viên hoặc quản lý bộ phận lễ tân, bộ phận tiền sảnh, nhân viên buồng phòng, nhân viên sale và marketing tại các khách sạn, resort 3-5 sao, các doanh nghiệp kinh doanh dịch vụ lưu trú trong và ngoài nước.
           • Các vị trí chuyên gia quản lý tại các sở du lịch.
           • Tham gia giảng dạy tại các trường cao đẳng, đại học trong nước."
 
-  utter_chnn_qtnhang:
+  utter_chnn_nhhang:
     - text: "Cơ hội nghề nghiệp: \n
           • Trở thành giám sát viên, quản lý tại nhà hàng, quản trị các dịch vụ ẩm thực, các dịch vụ chăm sóc khách hàng, sales và marketing cho các nhà hàng, khách sạn.
           • Làm việc tại các sở ban ngành liên quan đến lĩnh vực nhà hàng, du lịch, văn hóa.
@@ -957,7 +999,7 @@ responses:
           du lịch.
           • Làm chuyên viên tại các trung tâm du lịch, sở ban ngành liên quan đến du lịch."
 
-  utter_chnn_qltnmt:
+  utter_chnn_tnmt:
     - text: "Cơ hội nghề nghiệp: \n
           • Chuyên viên môi trường tại các sở, ban, ngành như sở tài nguyên và môi trường; sở khoa học và công nghệ, sở nông nghiệp & phát triển nông thôn hoặc tại các trung tâm bảo vệ môi trường.
           • Chuyên viên thiết kế, chế tạo, lắp đặt, vận hành, bảo trì, sửa chữa các thiết bị, hệ thống của ngành kỹ thuật và công nghệ xử lý môi trường.

@@ -193,7 +193,7 @@ nlu:
       - review học phí 1 kì ngành Dược
       - 1 kì ngành Dược thì học phí như nào
 
-  - intent: hp_y
+  - intent: hp_ykhoa
     examples: |
       - cho em hỏi học phí ngành y bao nhiêu ạ
       - ngành y bao nhiêu 1 kỳ ạ
@@ -339,7 +339,7 @@ nlu:
       - review học phí 1 kì ngành Thiết kế đồ họa
       - 1 kì ngành Thiết kế đồ họa thì học phí như nào
 
-  - intent: hp_tv
+  - intent: hp_vhvn
     examples: |
       - học phí ngành Tiếng Việt và văn hóa Việt Nam như nào ạ
       - ngành Tiếng Việt và văn hóa Việt Nam có đắt không
@@ -781,7 +781,7 @@ nlu:
       - review học phí 1 kì ngành Quản trị khách sạn
       - 1 kì ngành Quản trị khách sạn thì học phí như nào
 
-  - intent: hp_qtnhhang
+  - intent: hp_nhhang
     examples: |
       - học phí ngành Quản trị nhà hàng và dịch vụ ăn uống như nào ạ
       - ngành Quản trị nhà hàng và dịch vụ ăn uống có đắt không
@@ -823,7 +823,7 @@ nlu:
 
 
 
-  - intent: gt_duochoc
+  - intent: gt_duoc
     examples: |
       - dược học là ngành như thế nào
       - giới thiệu về ngành Dược học được không ạ
@@ -837,7 +837,7 @@ nlu:
       - giới thiệu về dược học đi
       - giới thiệu về dược học
 
-  - intent: gt_xny
+  - intent: gt_xnyh
     examples: |
       - giới thiệu về ngành Kỹ thuật xét nghiệm y học được không ạ
       - Kỹ thuật xét nghiệm y học là ngành như thế nào
@@ -920,6 +920,7 @@ nlu:
       - giới thiệu một chút về piano đi
       - giới thiệu về piano
       - giới thiệu piano
+      
   - intent: gt_dvien
     examples: |
       - giới thiệu về ngành Diễn viên được không ạ
@@ -990,7 +991,7 @@ nlu:
       - giới thiệu về Tiếng Việt & Văn hóa Việt Nam
       - giới thiệu Tiếng Việt & Văn hóa Việt Nam
 
-  - intent: gt_nnanh
+  - intent: gt_nna
     examples: |
       - giới thiệu về ngành Ngôn ngữ Anh được không ạ
       - Ngôn ngữ Anh là ngành như thế nào
@@ -1033,7 +1034,7 @@ nlu:
       - giới thiệu về quan hệ quốc tế
       - giới thiệu quan hệ quốc tế
 
-  - intent: gt_tlhoc
+  - intent: gt_tlh
     examples: |
       - giới thiệu về ngành Tâm lý học được không ạ
       - Tâm lý học là ngành như thế nào
@@ -1047,7 +1048,7 @@ nlu:
       - giới thiệu về tâm lý học
       - giới thiệu tâm lý học
 
-  - intent: gt_dphoc
+  - intent: gt_dph
     examples: |
       - giới thiệu về ngành Đông phương học được không ạ
       - Đông phương học là ngành như thế nào
@@ -1061,7 +1062,7 @@ nlu:
       - giới thiệu về đông phương học
       - giới thiệu đông phương học
 
-  - intent: gt_vnhoc
+  - intent: gt_vnh
     examples: |
       - giới thiệu về ngành Việt Nam học được không ạ
       - Việt Nam học là ngành như thế nào
@@ -1075,7 +1076,7 @@ nlu:
       - giới thiệu về việt nam học
       - giới thiệu việt nam học
 
-  - intent: gt_ttdaphuongtien
+  - intent: gt_dpt
     examples: |
       - giới thiệu về ngành Truyền thông đa phương tiện được không ạ
       - Truyền thông đa phương tiện là ngành như thế nào
@@ -1089,7 +1090,7 @@ nlu:
       - giới thiệu về Truyền thông đa phương tiện
       - giới thiệu Truyền thông đa phương tiện
 
-  - intent: gt_qhcongchung
+  - intent: gt_qhcc
     examples: |
       - giới thiệu về ngành Quan hệ công chúng được không ạ
       - Quan hệ công chúng là ngành như thế nào
@@ -1103,7 +1104,7 @@ nlu:
       - giới thiệu về Quan hệ công chúng
       - giới thiệu Quan hệ công chúng
 
-  - intent: gt_qtkdoanh
+  - intent: gt_qtkd
     examples: |
       - giới thiệu về ngành Quản trị kinh doanh được không ạ
       - Quản trị kinh doanh là ngành như thế nào
@@ -1117,7 +1118,7 @@ nlu:
       - giới thiệu về Quản trị kinh doanh
       - giới thiệu Quản trị kinh doanh
 
-  - intent: gt_marketing
+  - intent: gt_mar
     examples: |
       - giới thiệu về ngành Marketing được không ạ
       - Marketing là ngành như thế nào
@@ -1131,7 +1132,7 @@ nlu:
       - giới thiệu về marketing
       - giới thiệu marketing
 
-  - intent: gt_kdqte
+  - intent: gt_kdqt
     examples: |
       - giới thiệu về ngành Kinh doanh quốc tế được không ạ
       - Kinh doanh quốc tế là ngành như thế nào
@@ -1145,7 +1146,7 @@ nlu:
       - giới thiệu về kinh doanh quốc tế
       - giới thiệu kinh doanh quốc tế
 
-  - intent: gt_tcnganhang
+  - intent: gt_tcnh
     examples: |
       - giới thiệu về ngành Tài chính ngân hàng được không ạ
       - Tài chính ngân hàng là ngành như thế nào
@@ -1173,7 +1174,7 @@ nlu:
       - giới thiệu về kế toán
       - giới thiệu kế toán
 
-  - intent: gt_tmdientu
+  - intent: gt_tmdt
     examples: |
       - giới thiệu về ngành Thương mại điện tử được không ạ
       - Thương mại điện tử là ngành như thế nào
@@ -1187,7 +1188,7 @@ nlu:
       - giới thiệu về thương mại điện tử
       - giới thiệu thương mại điện tử
 
-  - intent: gt_qtnhanluc
+  - intent: gt_qtnl
     examples: |
       - giới thiệu về ngành Quản trị nhân lực được không ạ
       - Quản trị nhân lực là ngành như thế nào
@@ -1201,7 +1202,7 @@ nlu:
       - giới thiệu về quản trị nhân lực
       - giới thiệu quản trị nhân lực
 
-  - intent: gt_luatkt
+  - intent: gt_lkt
     examples: |
       - giới thiệu về ngành Luật kinh tế được không ạ
       - Luật kinh tế là ngành như thế nào
@@ -1214,7 +1215,8 @@ nlu:
       - giới thiệu một chút về luật kinh tế đi
       - giới thiệu về luật kinh tế
       - giới thiệu luật kinh tế
-  - intent: gt_cnshoc
+
+  - intent: gt_cnsh
     examples: |
       - giới thiệu về ngành Công nghệ sinh học được không ạ
       - Công nghệ sinh học là ngành như thế nào
@@ -1227,7 +1229,8 @@ nlu:
       - giới thiệu một chút về công nghệ sinh học đi
       - giới thiệu về công nghệ sinh học
       - giới thiệu công nghệ sinh học
-  - intent: gt_ktphanmem
+
+  - intent: gt_ktpm
     examples: |
       - giới thiệu về ngành Kỹ thuật phần mềm được không ạ
       - Kỹ thuật phần mềm là ngành như thế nào
@@ -1241,7 +1244,7 @@ nlu:
       - giới thiệu về kỹ thuật phần mềm
       - giới thiệu kỹ thuật phần mềm
 
-  - intent: gt_mmt_ttdulieu
+  - intent: gt_mmt
     examples: |
       - giới thiệu về ngành Mạng máy tính và Truyền thông dữ liệu được không ạ
       - Mạng máy tính và Truyền thông dữ liệu là ngành như thế nào
@@ -1269,7 +1272,7 @@ nlu:
       - giới thiệu về công nghệ thông tin
       - giới thiệu công nghệ thông tin
 
-  - intent: gt_cnktcdientu
+  - intent: gt_cdt
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật cơ điện tử được không ạ
       - Công nghệ kỹ thuật cơ điện tử là ngành như thế nào
@@ -1282,7 +1285,8 @@ nlu:
       - giới thiệu một chút về công nghệ kỹ thuật cơ điện tử đi
       - giới thiệu về công nghệ kỹ thuật cơ điện tử
       - giới thiệu công nghệ kỹ thuật cơ điện tử
-  - intent: gt_cnktoto
+
+  - intent: gt_oto
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật ô tô được không ạ
       - Công nghệ kỹ thuật ô tô là ngành như thế nào
@@ -1296,7 +1300,7 @@ nlu:
       - giới thiệu về công nghệ kỹ thuật ô tô
       - giới thiệu công nghệ kỹ thuật ô tô
 
-  - intent: gt_cnktdien_dientu
+  - intent: gt_ddt
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật điện - điện tử được không ạ
       - Công nghệ kỹ thuật điện - điện tử là ngành như thế nào
@@ -1310,7 +1314,7 @@ nlu:
       - giới thiệu về công nghệ kỹ thuật điện - điện tử
       - giới thiệu công nghệ kỹ thuật điện - điện tử
 
-  - intent: gt_cnkthhoc
+  - intent: gt_kthh
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật hoá học được không ạ
       - Công nghệ kỹ thuật hoá học là ngành như thế nào
@@ -1324,7 +1328,7 @@ nlu:
       - giới thiệu về công nghệ kỹ thuật hoá học
       - giới thiệu công nghệ kỹ thuật hoá học
 
-  - intent: gt_logistic
+  - intent: gt_log
     examples: |
       - giới thiệu về ngành logistics và quản lý chuỗi cung ứng được không ạ
       - logistics và quản lý chuỗi cung ứng là ngành như thế nào
@@ -1338,7 +1342,7 @@ nlu:
       - giới thiệu về logistics và quản lý chuỗi cung ứng
       - giới thiệu logistics và quản lý chuỗi cung ứng
 
-  - intent: gt_kthtcnghiep
+  - intent: gt_htcn
     examples: |
       - giới thiệu về ngành kỹ thuật hệ thống công nghiệp được không ạ
       - Kỹ thuật hệ thống công nghiệp là ngành như thế nào
@@ -1352,7 +1356,7 @@ nlu:
       - giới thiệu về kỹ thuật hệ thống công nghiệp
       - giới thiệu kỹ thuật hệ thống công nghiệp
 
-  - intent: gt_ktysinh
+  - intent: gt_ktys
     examples: |
       - giới thiệu về ngành kỹ thuật y sinh được không ạ
       - Kỹ thuật y sinh là ngành như thế nào
@@ -1366,7 +1370,7 @@ nlu:
       - giới thiệu về kỹ thuật y sinh
       - giới thiệu kỹ thuật y sinh
 
-  - intent: gt_vlykhoa
+  - intent: gt_vlyk
     examples: |
       - giới thiệu về ngành vật lý y khoa được không ạ
       - Vật lý y khoa là ngành như thế nào
@@ -1380,7 +1384,7 @@ nlu:
       - giới thiệu về vật lý y khoa
       - giới thiệu vật lý y khoa
 
-  - intent: gt_cntpham
+  - intent: gt_cntp
     examples: |
       - giới thiệu về ngành công nghệ thực phẩm được không ạ
       - Công nghệ thực phẩm là ngành như thế nào
@@ -1408,7 +1412,7 @@ nlu:
       - giới thiệu về kiến trúc
       - giới thiệu kiến trúc
 
-  - intent: gt_tknthat
+  - intent: gt_tknt
     examples: |
       - giới thiệu về ngành thiết kế nội thất được không ạ
       - Thiết kế nội thất là ngành như thế nào
@@ -1422,7 +1426,7 @@ nlu:
       - giới thiệu về thiết kế nội thất
       - giới thiệu thiết kế nội thất
 
-  - intent: gt_ktxdung
+  - intent: gt_ktxd
     examples: |
       - giới thiệu về ngành kỹ thuật xây dựng được không ạ
       - Kỹ thuật xây dựng là ngành như thế nào
@@ -1436,7 +1440,7 @@ nlu:
       - giới thiệu về kỹ thuật xây dựng
       - giới thiệu kỹ thuật xây dựng
 
-  - intent: gt_qtksan
+  - intent: gt_qtks
     examples: |
       - giới thiệu về ngành quản trị khách sạn được không ạ
       - Quản trị khách sạn là ngành như thế nào
@@ -1450,7 +1454,7 @@ nlu:
       - giới thiệu về quản trị khách sạn
       - giới thiệu quản trị khách sạn
 
-  - intent: gt_qtnhang
+  - intent: gt_nhhang
     examples: |
       - giới thiệu về ngành quản trị nhà hàng và dịch vụ ăn uống được không ạ
       - quản trị nhà hàng và dịch vụ ăn uống là ngành như thế nào
@@ -1478,7 +1482,7 @@ nlu:
       - giới thiệu về du lịch
       - giới thiệu du lịch
 
-  - intent: gt_qltnmt
+  - intent: gt_tnmt
     examples: |
       - giới thiệu về ngành quản lý tài nguyên và môi trường được không ạ
       - quản lý tài nguyên và môi trường là ngành như thế nào
