@@ -12,6 +12,7 @@ nlu:
       - alo
       - bạn ơi
       - ad ơi
+      - hellu
 
   - intent: tam_biet
     examples: |
@@ -21,6 +22,7 @@ nlu:
       - see you later
       - good night
       - bye
+      - bye bye
 
   - intent: dong_y
     examples: |
@@ -1495,3 +1497,793 @@ nlu:
       - giới thiệu một chút về quản lý tài nguyên và môi trường đi
       - giới thiệu về quản lý tài nguyên và môi trường
       - giới thiệu quản lý tài nguyên và môi trường
+
+  - intent: gt_phcn
+    examples: |
+      - giới thiệu về ngành kỹ thuật phục hồi chức năng được không ạ
+      - kỹ thuật phục hồi chức năng là ngành như thế nào
+      - giới thiệu đôi chút về ngành kỹ thuật phục hồi chức năng được không ạ
+      - kỹ thuật phục hồi chức năng là ngành gì
+      - kỹ thuật phục hồi chức năng là gì
+      - kỹ thuật phục hồi chức năng
+      - giới thiệu về kỹ thuật phục hồi chức năng đi
+      - giới thiệu kỹ thuật phục hồi chức năng đi
+      - giới thiệu một chút về kỹ thuật phục hồi chức năng đi
+      - giới thiệu về kỹ thuật phục hồi chức năng
+      - giới thiệu kỹ thuật phục hồi chức năng
+
+  - intent: gt_qlbv
+    examples: |
+      - giới thiệu về ngành quản lý bệnh viện được không ạ
+      - quản lý bệnh viện là ngành như thế nào
+      - giới thiệu đôi chút về ngành quản lý bệnh viện được không ạ
+      - quản lý bệnh viện là ngành gì
+      - quản lý bệnh viện là gì
+      - quản lý bệnh viện
+      - giới thiệu về quản lý bệnh viện đi
+      - giới thiệu quản lý bệnh viện đi
+      - giới thiệu một chút về quản lý bệnh viện đi
+      - giới thiệu về quản lý bệnh viện
+      - giới thiệu quản lý bệnh viện
+
+
+  - intent: chnn_cdt #marker
+    examples: |
+      - học cơ điện tử sau này làm gì
+      - ngành cơ điện tử ra trường làm gì
+      - cơ hội nghề nghiệp cơ điện tử
+      - cơ điện tử là làm gì
+      - học cơ điện tử làm gì
+      - những nghề nào liên quan đến cơ điện tử
+      - việc làm sau khi học cơ điện tử
+      - cơ điện tử có nghề nào
+      - nghề cơ điện tử
+      - nghề sau khi học cơ điện tử
+      - sau khi học cơ điện tử làm gì
+      
+  - intent: chnn_cnsh
+    examples: |
+      - học công nghệ sinh học sau này làm gì
+      - ngành công nghệ sinh học ra trường làm gì
+      - cơ hội nghề nghiệp công nghệ sinh học
+      - công nghệ sinh học là làm gì
+      - học công nghệ sinh học làm gì
+      - những nghề nào liên quan đến công nghệ sinh học
+      - việc làm sau khi học công nghệ sinh học
+      - công nghệ sinh học có nghề nào
+      - nghề công nghệ sinh học
+      - nghề sau khi học công nghệ sinh học
+      - sau khi học công nghệ sinh học làm gì
+            
+  - intent: chnn_cntp
+    examples: |
+      - học công nghệ thực phẩm sau này làm gì
+      - ngành công nghệ thực phẩm ra trường làm gì
+      - cơ hội nghề nghiệp công nghệ thực phẩm
+      - công nghệ thực phẩm là làm gì
+      - học công nghệ thực phẩm làm gì
+      - những nghề nào liên quan đến công nghệ thực phẩm
+      - việc làm sau khi học công nghệ thực phẩm
+      - công nghệ thực phẩm có nghề nào
+      - nghề công nghệ thực phẩm
+      - nghề sau khi học công nghệ thực phẩm
+      - sau khi học công nghệ thực phẩm làm gì
+            
+  - intent: chnn_cntt
+    examples: |
+      - học công nghệ thông tin sau này làm gì
+      - ngành công nghệ thông tin trường làm gì
+      - cơ hội nghề nghiệp công nghệ thông tin
+      - công nghệ thông tin là làm gì
+      - học công nghệ thông tin làm gì
+      - những nghề nào liên quan đến công nghệ thông tin
+      - việc làm sau khi học công nghệ thông tin
+      - công nghệ thông tin có nghề nào
+      - nghề công nghệ thông tin
+      - nghề sau khi học công nghệ thông tin
+      - sau khi học công nghệ thông tin làm gì
+            
+  - intent: chnn_ddien
+    examples: |
+      - học đạo diễn sau này làm gì
+      - ngành đạo diễn ra trường làm gì
+      - cơ hội nghề nghiệp đạo diễn
+      - đạo diễn là làm gì
+      - học đạo diễn làm gì
+      - những nghề nào liên quan đến cơ đạo diễn
+      - việc làm sau khi học đạo diễn
+      - đạo diễn có nghề nào
+      - nghề đạo diễn
+      - nghề sau khi học đạo diễn
+      - sau khi học đạo diễn làm gì
+            
+  - intent: chnn_ddt
+    examples: |
+      - học công nghệ kỹ thuật điện sau này làm gì
+      - ngành công nghệ kỹ thuật điện ra trường làm gì
+      - cơ hội nghề nghiệp công nghệ kỹ thuật điện
+      - công nghệ kỹ thuật điện là làm gì
+      - học công nghệ kỹ thuật điện làm gì
+      - những nghề nào liên quan đến công nghệ kỹ thuật điện
+      - việc làm sau khi học công nghệ kỹ thuật điện
+      - công nghệ kỹ thuật điện có nghề nào
+      - nghề công nghệ kỹ thuật điện
+      - nghề sau khi học công nghệ kỹ thuật điện
+      - sau khi học công nghệ kỹ thuật điện làm gì
+      - học công nghệ kỹ thuật điện tử sau này làm gì
+      - ngành công nghệ kỹ thuật điện tử ra trường làm gì
+      - cơ hội nghề nghiệp công nghệ kỹ thuật điện tử
+      - công nghệ kỹ thuật điện tử là làm gì
+      - học công nghệ kỹ thuật điện tử làm gì
+      - những nghề nào liên quan đến công nghệ kỹ thuật điện tử
+      - việc làm sau khi học công nghệ kỹ thuật điện tử
+      - công nghệ kỹ thuật điện tử có nghề nào
+      - nghề công nghệ kỹ thuật điện tử
+      - nghề sau khi học công nghệ kỹ thuật điện tử
+      - sau khi học công nghệ kỹ thuật điện tử làm gì
+            
+  - intent: chnn_dduong
+    examples: |
+      - học điều dưỡng sau này làm gì
+      - ngành điều dưỡng ra trường làm gì
+      - cơ hội nghề nghiệp điều dưỡng
+      - điều dưỡng là làm gì
+      - học điều dưỡng làm gì
+      - những nghề nào liên quan điều dưỡng
+      - việc làm sau khi học điều dưỡng
+      - điều dưỡng có nghề nào
+      - nghề điều dưỡng
+      - nghề sau khi học điều dưỡng
+      - sau khi học điều dưỡng làm gì
+            
+  - intent: chnn_dlich
+    examples: |
+      - học du lịch sau này làm gì
+      - ngành du lịch ra trường làm gì
+      - cơ hội nghề nghiệp du lịch
+      - du lịch là làm gì
+      - học du lịch làm gì
+      - những nghề nào liên quan đến du lịch
+      - việc làm sau khi học du lịch
+      - du lịch có nghề nào
+      - nghề du lịch
+      - nghề sau khi học du lịch
+      - sau khi học du lịch làm gì
+            
+  - intent: chnn_dpt
+    examples: |
+      - học truyền thông đa phương tiện sau này làm gì
+      - ngành truyền thông đa phương tiện ra trường làm gì
+      - cơ hội nghề nghiệp truyền thông đa phương tiện
+      - truyền thông đa phương tiện là làm gì
+      - học truyền thông đa phương tiện làm gì
+      - những nghề nào liên quan đến truyền thông đa phương tiện
+      - việc làm sau khi học truyền thông đa phương tiện
+      - truyền thông đa phương tiện có nghề nào
+      - nghề truyền thông đa phương tiện
+      - nghề sau khi học truyền thông đa phương tiện
+      - sau khi học truyền thông đa phương tiện làm gì
+            
+  - intent: chnn_dph
+    examples: |
+      - học đông phương học sau này làm gì
+      - ngành đông phương học ra trường làm gì
+      - cơ hội nghề nghiệp đông phương học
+      - đông phương học là làm gì
+      - học đông phương học làm gì
+      - những nghề nào liên quan đến đông phương học
+      - việc làm sau khi học đông phương học
+      - đông phương học có nghề nào
+      - nghề đông phương học
+      - nghề sau khi học đông phương học
+      - sau khi học đông phương học làm gì
+            
+  - intent: chnn_duoc
+    examples: |
+      - học dược sau này làm gì
+      - ngành dược ra trường làm gì
+      - cơ hội nghề nghiệp dược
+      - dược là làm gì
+      - học dược làm gì
+      - những nghề nào liên quan đến dược
+      - việc làm sau khi học dược
+      - dược có nghề nào
+      - nghề dược
+      - nghề sau khi học dược
+      - sau khi học dược làm gì
+            
+  - intent: chnn_dvien
+    examples: |
+      - học diễn viên sau này làm gì
+      - ngành diễn viên ra trường làm gì
+      - cơ hội nghề nghiệp diễn viên
+      - diễn viên là làm gì
+      - học diễn viên làm gì
+      - những nghề nào liên quan đến diễn viên
+      - việc làm sau khi học diễn viên
+      - diễn viên có nghề nào
+      - nghề diễn viên
+      - nghề sau khi học diễn viên
+      - sau khi học diễn viên làm gì
+            
+  - intent: chnn_gdmn
+    examples: |
+      - học giáo dục mầm non sau này làm gì
+      - ngành giáo dục mầm non ra trường làm gì
+      - cơ hội nghề nghiệp giáo dục mầm non
+      - giáo dục mầm non là làm gì
+      - học giáo dục mầm non làm gì
+      - những nghề nào liên quan đến giáo dục mầm non
+      - việc làm sau khi học giáo dục mầm non
+      - giáo dục mầm non có nghề nào
+      - nghề giáo dục mầm non
+      - nghề sau khi học giáo dục mầm non
+      - sau khi học giáo dục mầm non làm gì
+            
+  - intent: chnn_htcn
+    examples: |
+      - học kỹ thuật hệ thống công nghiệp sau này làm gì
+      - ngành kỹ thuật hệ thống công nghiệp ra trường làm gì
+      - cơ hội nghề nghiệp kỹ thuật hệ thống công nghiệp
+      - kỹ thuật hệ thống công nghiệp là làm gì
+      - học kỹ thuật hệ thống công nghiệp làm gì
+      - những nghề nào liên quan đến kỹ thuật hệ thống công nghiệp
+      - việc làm sau khi học kỹ thuật hệ thống công nghiệp
+      - kỹ thuật hệ thống công nghiệp có nghề nào
+      - nghề kỹ thuật hệ thống công nghiệp
+      - nghề sau khi học kỹ thuật hệ thống công nghiệp
+      - sau khi học kỹ thuật hệ thống công nghiệp làm gì
+            
+  - intent: chnn_kdqt
+    examples: |
+      - học kinh doanh quốc tế sau này làm gì
+      - ngành kinh doanh quốc tế ra trường làm gì
+      - cơ hội nghề nghiệp kinh doanh quốc tế
+      - kinh doanh quốc tế là làm gì
+      - học kinh doanh quốc tế làm gì
+      - những nghề nào liên quan đến kinh doanh quốc tế
+      - việc làm sau khi học kinh doanh quốc tế
+      - kinh doanh quốc tế có nghề nào
+      - nghề kinh doanh quốc tế
+      - nghề sau khi học kinh doanh quốc tế
+      - sau khi học kinh doanh quốc tế làm gì
+            
+  - intent: chnn_ktoan
+    examples: |
+      - học kế toán sau này làm gì
+      - ngành kế toán ra trường làm gì
+      - cơ hội nghề nghiệp kế toán
+      - kế toán là làm gì
+      - học kế toán làm gì
+      - những nghề nào liên quan đến kế toán
+      - việc làm sau khi học kế toán
+      - kế toán có nghề nào
+      - nghề kế toán
+      - nghề sau khi học kế toán
+      - sau khi học kế toán làm gì
+            
+  - intent: chnn_ktpm
+    examples: |
+      - học kỹ thuật phần mềm sau này làm gì
+      - ngành kỹ thuật phần mềm ra trường làm gì
+      - cơ hội nghề nghiệp kỹ thuật phần mềm
+      - kỹ thuật phần mềm là làm gì
+      - học kỹ thuật phần mềm làm gì
+      - những nghề nào liên quan đến kỹ thuật phần mềm
+      - việc làm sau khi học kỹ thuật phần mềm
+      - kỹ thuật phần mềm có nghề nào
+      - nghề kỹ thuật phần mềm
+      - nghề sau khi học kỹ thuật phần mềm
+      - sau khi học kỹ thuật phần mềm làm gì
+            
+  - intent: chnn_ktxd
+    examples: |
+      - học kỹ thuật xây dựng sau này làm gì
+      - ngành kỹ thuật xây dựng ra trường làm gì
+      - cơ hội nghề nghiệp kỹ thuật xây dựng
+      - kỹ thuật xây dựng là làm gì
+      - học kỹ thuật xây dựng làm gì
+      - những nghề nào liên quan đến kỹ thuật xây dựng
+      - việc làm sau khi học kỹ thuật xây dựng
+      - kỹ thuật xây dựng có nghề nào
+      - nghề kỹ thuật xây dựng
+      - nghề sau khi học kỹ thuật xây dựng
+      - sau khi học kỹ thuật xây dựng làm gì
+            
+  - intent: chnn_ktys
+    examples: |
+      - học kỹ thuật y sinh sau này làm gì
+      - ngành kỹ thuật y sinh ra trường làm gì
+      - cơ hội nghề nghiệp kỹ thuật y sinh
+      - kỹ thuật y sinh là làm gì
+      - học kỹ thuật y sinh làm gì
+      - những nghề nào liên quan đến kỹ thuật y sinh
+      - việc làm sau khi học kỹ thuật y sinh
+      - kỹ thuật y sinh có nghề nào
+      - nghề kỹ thuật y sinh
+      - nghề sau khi học kỹ thuật y sinh
+      - sau khi học kỹ thuật y sinh làm gì
+            
+  - intent: chnn_kthh
+    examples: |
+      - học công nghệ kỹ thuật hoá học sau này làm gì
+      - ngành công nghệ kỹ thuật hoá học ra trường làm gì
+      - cơ hội nghề nghiệp công nghệ kỹ thuật hoá học
+      - công nghệ kỹ thuật hoá học là làm gì
+      - học công nghệ kỹ thuật hoá học làm gì
+      - những nghề nào liên quan đến công nghệ kỹ thuật hoá học
+      - việc làm sau khi học công nghệ kỹ thuật hoá học
+      - công nghệ kỹ thuật hoá học có nghề nào
+      - nghề công nghệ kỹ thuật hoá học
+      - nghề sau khi học công nghệ kỹ thuật hoá học
+      - sau khi học công nghệ kỹ thuật hoá học làm gì
+            
+  - intent: chnn_ktruc
+    examples: |
+      - học kiến trúc sau này làm gì
+      - ngành kiến trúc ra trường làm gì
+      - cơ hội nghề nghiệp kiến trúc
+      - kiến trúc là làm gì
+      - học kiến trúc làm gì
+      - những nghề nào liên quan đến kiến trúc
+      - việc làm sau khi học kiến trúc
+      - kiến trúc có nghề nào
+      - nghề kiến trúc
+      - nghề sau khi học kiến trúc
+      - sau khi học kiến trúc làm gì
+            
+  - intent: chnn_lkt
+    examples: |
+      - học luật kinh tế sau này làm gì
+      - ngành luật kinh tế ra trường làm gì
+      - cơ hội nghề nghiệp luật kinh tế
+      - luật kinh tế là làm gì
+      - học luật kinh tế làm gì
+      - những nghề nào liên quan đến luật kinh tế
+      - việc làm sau khi học luật kinh tế
+      - luật kinh tế có nghề nào
+      - nghề luật kinh tế
+      - nghề sau khi học luật kinh tế
+      - sau khi học luật kinh tế làm gì
+            
+  - intent: chnn_log
+    examples: |
+      - học logistic sau này làm gì
+      - ngành logistic ra trường làm gì
+      - cơ hội nghề nghiệp logistic
+      - logistic là làm gì
+      - học logistic làm gì
+      - những nghề nào liên quan đến logistic
+      - việc làm sau khi học logistic
+      - logistic có nghề nào
+      - nghề logistic
+      - nghề sau khi học logistic
+      - sau khi học logistic làm gì
+      - học quản lý chuỗi cung ứng sau này làm gì
+      - ngành quản lý chuỗi cung ứng ra trường làm gì
+      - cơ hội nghề nghiệp quản lý chuỗi cung ứng
+      - quản lý chuỗi cung ứng là làm gì
+      - học quản lý chuỗi cung ứng làm gì
+      - những nghề nào liên quan đến quản lý chuỗi cung ứng
+      - việc làm sau khi học quản lý chuỗi cung ứng
+      - quản lý chuỗi cung ứng có nghề nào
+      - nghề quản lý chuỗi cung ứng
+      - nghề sau khi học quản lý chuỗi cung ứng
+      - sau khi học quản lý chuỗi cung ứng làm gì
+            
+  - intent: chnn_mar
+    examples: |
+      - học marketing sau này làm gì
+      - ngành marketing ra trường làm gì
+      - cơ hội nghề nghiệp marketing
+      - marketing là làm gì
+      - học marketing làm gì
+      - những nghề nào liên quan đến marketing
+      - việc làm sau khi học marketing
+      - marketing có nghề nào
+      - nghề marketing
+      - nghề sau khi học marketing
+      - sau khi học marketing làm gì
+            
+  - intent: chnn_mmt
+    examples: |
+      - học mạng máy tính sau này làm gì
+      - ngành mạng máy tính ra trường làm gì
+      - cơ hội nghề nghiệp mạng máy tính
+      - mạng máy tính là làm gì
+      - học mạng máy tính làm gì
+      - những nghề nào liên quan đến mạng máy tính
+      - việc làm sau khi học mạng máy tính
+      - mạng máy tính có nghề nào
+      - nghề mạng máy tính
+      - nghề sau khi học mạng máy tính
+      - sau khi học mạng máy tính làm gì
+      - học truyền thông dữ liệu sau này làm gì
+      - ngành truyền thông dữ liệu ra trường làm gì
+      - cơ hội nghề nghiệp truyền thông dữ liệu
+      - truyền thông dữ liệu là làm gì
+      - học truyền thông dữ liệu làm gì
+      - những nghề nào liên quan đến truyền thông dữ liệu
+      - việc làm sau khi học truyền thông dữ liệu
+      - truyền thông dữ liệu có nghề nào
+      - nghề truyền thông dữ liệu
+      - nghề sau khi học truyền thông dữ liệu
+      - sau khi học truyền thông dữ liệu làm gì
+            
+  - intent: chnn_nna
+    examples: |
+      - học ngôn ngữ anh sau này làm gì
+      - ngành ngôn ngữ anh ra trường làm gì
+      - cơ hội nghề nghiệp ngôn ngữ anh
+      - ngôn ngữ anh là làm gì
+      - học ngôn ngữ anh làm gì
+      - những nghề nào liên quan đến ngôn ngữ anh
+      - việc làm sau khi học ngôn ngữ anh
+      - ngôn ngữ anh có nghề nào
+      - nghề ngôn ngữ anh
+      - nghề sau khi học ngôn ngữ anh
+      - sau khi học ngôn ngữ anh làm gì
+            
+  - intent: chnn_nntq
+    examples: |
+      - học ngôn ngữ trung quốc sau này làm gì
+      - ngành ngôn ngữ trung quốc ra trường làm gì
+      - cơ hội nghề nghiệp ngôn ngữ trung quốc
+      - ngôn ngữ trung quốc là làm gì
+      - học ngôn ngữ trung quốc làm gì
+      - những nghề nào liên quan đến ngôn ngữ trung quốc
+      - việc làm sau khi học ngôn ngữ trung quốc
+      - ngôn ngữ trung quốc có nghề nào
+      - nghề ngôn ngữ trung quốc
+      - nghề sau khi học ngôn ngữ trung quốc
+      - sau khi học ngôn ngữ trung quốc làm gì
+            
+  - intent: chnn_nhhang
+    examples: |
+      - học quản trị nhà hàng sau này làm gì
+      - ngành quản trị nhà hàng ra trường làm gì
+      - cơ hội nghề nghiệp quản trị nhà hàng
+      - quản trị nhà hàng là làm gì
+      - học quản trị nhà hàng làm gì
+      - những nghề nào liên quan đến quản trị nhà hàng
+      - việc làm sau khi học quản trị nhà hàng
+      - quản trị nhà hàng có nghề nào
+      - nghề quản trị nhà hàng
+      - nghề sau khi học quản trị nhà hàng
+      - sau khi học quản trị nhà hàng làm gì
+      - học dịch vụ ăn uống sau này làm gì
+      - ngành dịch vụ ăn uống ra trường làm gì
+      - cơ hội nghề nghiệp dịch vụ ăn uống
+      - dịch vụ ăn uống là làm gì
+      - học dịch vụ ăn uống làm gì
+      - những nghề nào liên quan đến dịch vụ ăn uống
+      - việc làm sau khi học dịch vụ ăn uống
+      - dịch vụ ăn uống có nghề nào
+      - nghề dịch vụ ăn uống
+      - nghề sau khi học dịch vụ ăn uống
+      - sau khi học dịch vụ ăn uống làm gì
+            
+  - intent: chnn_oto
+    examples: |
+      - học công nghệ kỹ thuật otô sau này làm gì
+      - ngành công nghệ kỹ thuật otô ra trường làm gì
+      - cơ hội nghề nghiệp công nghệ kỹ thuật otô
+      - công nghệ kỹ thuật otô là làm gì
+      - học công nghệ kỹ thuật otô làm gì
+      - những nghề nào liên quan đến công nghệ kỹ thuật otô
+      - việc làm sau khi học công nghệ kỹ thuật otô
+      - công nghệ kỹ thuật otô có nghề nào
+      - nghề công nghệ kỹ thuật otô
+      - nghề sau khi học công nghệ kỹ thuật otô
+      - sau khi học công nghệ kỹ thuật otô làm gì
+            
+  - intent: chnn_piano
+    examples: |
+      - học piano sau này làm gì
+      - ngành piano ra trường làm gì
+      - cơ hội nghề nghiệp piano
+      - piano là làm gì
+      - học piano làm gì
+      - những nghề nào liên quan đến piano
+      - việc làm sau khi học piano
+      - piano có nghề nào
+      - nghề piano
+      - nghề sau khi học piano
+      - sau khi học piano làm gì
+            
+  - intent: chnn_phcn
+    examples: |
+      - học kỹ thuật phục hồi chức năng sau này làm gì
+      - ngành kỹ thuật phục hồi chức năng ra trường làm gì
+      - cơ hội nghề nghiệp kỹ thuật phục hồi chức năng
+      - kỹ thuật phục hồi chức năng là làm gì
+      - học kỹ thuật phục hồi chức năng làm gì
+      - những nghề nào liên quan đến kỹ thuật phục hồi chức năng
+      - việc làm sau khi học kỹ thuật phục hồi chức năng
+      - kỹ thuật phục hồi chức năng có nghề nào
+      - nghề kỹ thuật phục hồi chức năng
+      - nghề sau khi học kỹ thuật phục hồi chức năng
+      - sau khi học kỹ thuật phục hồi chức năng làm gì
+            
+  - intent: chnn_qhcc
+    examples: |
+      - học quan hệ công chúng sau này làm gì
+      - ngành quan hệ công chúng ra trường làm gì
+      - cơ hội nghề nghiệp quan hệ công chúng
+      - quan hệ công chúng là làm gì
+      - học quan hệ công chúng làm gì
+      - những nghề nào liên quan đến quan hệ công chúng
+      - việc làm sau khi học quan hệ công chúng
+      - quan hệ công chúng có nghề nào
+      - nghề quan hệ công chúng
+      - nghề sau khi học quan hệ công chúng
+      - sau khi học quan hệ công chúng làm gì
+            
+  - intent: chnn_qhqt
+    examples: |
+      - học quan hệ quốc tế sau này làm gì
+      - ngành quan hệ quốc tế ra trường làm gì
+      - cơ hội nghề nghiệp quan hệ quốc tế
+      - quan hệ quốc tế là làm gì
+      - học quan hệ quốc tế làm gì
+      - những nghề nào liên quan đến quan hệ quốc tế
+      - việc làm sau khi học quan hệ quốc tế
+      - quan hệ quốc tế có nghề nào
+      - nghề quan hệ quốc tế
+      - nghề sau khi học quan hệ quốc tế
+      - sau khi học quan hệ quốc tế làm gì
+            
+  - intent: chnn_qlbv
+    examples: |
+      - học quản lý bệnh viện sau này làm gì
+      - ngành quản lý bệnh viện ra trường làm gì
+      - cơ hội nghề nghiệp quản lý bệnh viện
+      - quản lý bệnh viện là làm gì
+      - học quản lý bệnh viện làm gì
+      - những nghề nào liên quan đến quản lý bệnh viện
+      - việc làm sau khi học quản lý bệnh viện
+      - quản lý bệnh viện có nghề nào
+      - nghề quản lý bệnh viện
+      - nghề sau khi học quản lý bệnh viện
+      - sau khi học quản lý bệnh viện làm gì
+            
+  - intent: chnn_qphim
+    examples: |
+      - học quay phim sau này làm gì
+      - ngành quay phim ra trường làm gì
+      - cơ hội nghề nghiệp quay phim
+      - quay phim là làm gì
+      - học quay phim làm gì
+      - những nghề nào liên quan đến quay phim
+      - việc làm sau khi học quay phim
+      - quay phim có nghề nào
+      - nghề quay phim
+      - nghề sau khi học quay phim
+      - sau khi học quay phim làm gì
+            
+  - intent: chnn_qtkd
+    examples: |
+      - học quản trị kinh doanh sau này làm gì
+      - ngành quản trị kinh doanh ra trường làm gì
+      - cơ hội nghề nghiệp quản trị kinh doanh
+      - quản trị kinh doanh là làm gì
+      - học quản trị kinh doanh làm gì
+      - những nghề nào liên quan đến quản trị kinh doanh
+      - việc làm sau khi học quản trị kinh doanh
+      - quản trị kinh doanh có nghề nào
+      - nghề quản trị kinh doanh
+      - nghề sau khi học quản trị kinh doanh
+      - sau khi học quản trị kinh doanh làm gì
+            
+  - intent: chnn_qtks
+    examples: |
+      - học quản trị khách sạn sau này làm gì
+      - ngành quản trị khách sạn ra trường làm gì
+      - cơ hội nghề nghiệp quản trị khách sạn
+      - quản trị khách sạn là làm gì
+      - học quản trị khách sạn làm gì
+      - những nghề nào liên quan đến quản trị khách sạn
+      - việc làm sau khi học quản trị khách sạn
+      - quản trị khách sạn có nghề nào
+      - nghề quản trị khách sạn
+      - nghề sau khi học quản trị khách sạn
+      - sau khi học quản trị khách sạn làm gì
+            
+  - intent: chnn_qtnl
+    examples: |
+      - học quản trị nhân lực sau này làm gì
+      - ngành quản trị nhân lực ra trường làm gì
+      - cơ hội nghề nghiệp quản trị nhân lực
+      - quản trị nhân lực là làm gì
+      - học quản trị nhân lực làm gì
+      - những nghề nào liên quan đến quản trị nhân lực
+      - việc làm sau khi học quản trị nhân lực
+      - quản trị nhân lực có nghề nào
+      - nghề quản trị nhân lực
+      - nghề sau khi học quản trị nhân lực
+      - sau khi học quản trị nhân lực làm gì
+            
+  - intent: chnn_tcnh
+    examples: |
+      - học tài chính ngân hàng sau này làm gì
+      - ngành tài chính ngân hàng ra trường làm gì
+      - cơ hội nghề nghiệp tài chính ngân hàng
+      - tài chính ngân hàng là làm gì
+      - học tài chính ngân hàng làm gì
+      - những nghề nào liên quan đến tài chính ngân hàng
+      - việc làm sau khi học tài chính ngân hàng
+      - tài chính ngân hàng có nghề nào
+      - nghề tài chính ngân hàng
+      - nghề sau khi học tài chính ngân hàng
+      - sau khi học tài chính ngân hàng làm gì
+            
+  - intent: chnn_tkdh
+    examples: |
+      - học thiết kế đồ hoạ sau này làm gì
+      - ngành thiết kế đồ hoạ ra trường làm gì
+      - cơ hội nghề nghiệp thiết kế đồ hoạ
+      - thiết kế đồ hoạ là làm gì
+      - học thiết kế đồ hoạ làm gì
+      - những nghề nào liên quan đến thiết kế đồ hoạ
+      - việc làm sau khi học thiết kế đồ hoạ
+      - thiết kế đồ hoạ có nghề nào
+      - nghề thiết kế đồ hoạ
+      - nghề sau khi học thiết kế đồ hoạ
+      - sau khi học thiết kế đồ hoạ làm gì
+            
+  - intent: chnn_tknt
+    examples: |
+      - học thiết kế nội thất sau này làm gì
+      - ngành thiết kế nội thất ra trường làm gì
+      - cơ hội nghề nghiệp thiết kế nội thất
+      - thiết kế nội thất là làm gì
+      - học thiết kế nội thất làm gì
+      - những nghề nào liên quan đến thiết kế nội thất
+      - việc làm sau khi học thiết kế nội thất
+      - thiết kế nội thất có nghề nào
+      - nghề thiết kế nội thất
+      - nghề sau khi học thiết kế nội thất
+      - sau khi học thiết kế nội thất làm gì
+            
+  - intent: chnn_tlh
+    examples: |
+      - học tâm lý học sau này làm gì
+      - ngành tâm lý học ra trường làm gì
+      - cơ hội nghề nghiệp tâm lý học
+      - tâm lý học là làm gì
+      - học tâm lý học làm gì
+      - những nghề nào liên quan đến tâm lý học
+      - việc làm sau khi học tâm lý học
+      - tâm lý học có nghề nào
+      - nghề tâm lý học
+      - nghề sau khi học tâm lý học
+      - sau khi học tâm lý học làm gì
+            
+  - intent: chnn_tmdt
+    examples: |
+      - học thương mại điện tử sau này làm gì
+      - ngành thương mại điện tử ra trường làm gì
+      - cơ hội nghề nghiệp thương mại điện tử
+      - thương mại điện tử là làm gì
+      - học thương mại điện tử làm gì
+      - những nghề nào liên quan đến thương mại điện tử
+      - việc làm sau khi học thương mại điện tử
+      - thương mại điện tử có nghề nào
+      - nghề thương mại điện tử
+      - nghề sau khi học thương mại điện tử
+      - sau khi học thương mại điện tử làm gì
+            
+  - intent: chnn_tnmt
+    examples: |
+      - học quản lý tài nguyên và môi trường sau này làm gì
+      - ngành quản lý tài nguyên và môi trường ra trường làm gì
+      - cơ hội nghề nghiệp quản lý tài nguyên và môi trường
+      - quản lý tài nguyên và môi trường là làm gì
+      - học quản lý tài nguyên và môi trường làm gì
+      - những nghề nào liên quan đến quản lý tài nguyên và môi trường
+      - việc làm sau khi học quản lý tài nguyên và môi trường
+      - quản lý tài nguyên và môi trường có nghề nào
+      - nghề quản lý tài nguyên và môi trường
+      - nghề sau khi học quản lý tài nguyên và môi trường
+      - sau khi học quản lý tài nguyên và môi trường làm gì
+            
+  - intent: chnn_tnhac
+    examples: |
+      - học thanh nhạc sau này làm gì
+      - ngành thanh nhạc ra trường làm gì
+      - cơ hội nghề nghiệp thanh nhạc
+      - thanh nhạc là làm gì
+      - học thanh nhạc làm gì
+      - những nghề nào liên quan đến thanh nhạc
+      - việc làm sau khi học thanh nhạc
+      - thanh nhạc có nghề nào
+      - nghề thanh nhạc
+      - nghề sau khi học thanh nhạc
+      - sau khi học thanh nhạc làm gì
+            
+  - intent: chnn_vhvn
+    examples: |
+      - học tiếng việt và văn hoá việt nam sau này làm gì
+      - ngành tiếng việt và văn hoá việt nam ra trường làm gì
+      - cơ hội nghề nghiệp tiếng việt và văn hoá việt nam
+      - tiếng việt và văn hoá việt nam là làm gì
+      - học tiếng việt và văn hoá việt nam làm gì
+      - những nghề nào liên quan đến tiếng việt và văn hoá việt nam
+      - việc làm sau khi học tiếng việt và văn hoá việt nam
+      - tiếng việt và văn hoá việt nam có nghề nào
+      - nghề tiếng việt và văn hoá việt nam
+      - nghề sau khi học tiếng việt và văn hoá việt nam
+      - sau khi học tiếng việt và văn hoá việt nam làm gì
+            
+  - intent: chnn_vlyk
+    examples: |
+      - học vật lý y khoa sau này làm gì
+      - ngành vật lý y khoa ra trường làm gì
+      - cơ hội nghề nghiệp vật lý y khoa
+      - vật lý y khoa là làm gì
+      - học vật lý y khoa làm gì
+      - những nghề nào liên quan đến vật lý y khoa
+      - việc làm sau khi học vật lý y khoa
+      - vật lý y khoa có nghề nào
+      - nghề vật lý y khoa
+      - nghề sau khi học vật lý y khoa
+      - sau khi học vật lý y khoa làm gì
+            
+  - intent: chnn_vnh
+    examples: |
+      - học việt nam học sau này làm gì
+      - ngành việt nam học ra trường làm gì
+      - cơ hội nghề nghiệp việt nam học
+      - việt nam học là làm gì
+      - học việt nam học làm gì
+      - những nghề nào liên quan đến việt nam học
+      - việc làm sau khi học việt nam học
+      - việt nam học có nghề nào
+      - nghề việt nam học
+      - nghề sau khi học việt nam học
+      - sau khi học việt nam học làm gì
+            
+  - intent: chnn_xnyh
+    examples: |
+      - học xét nghiệm y khoa sau này làm gì
+      - ngành xét nghiệm y khoa ra trường làm gì
+      - cơ hội nghề nghiệp xét nghiệm y khoa
+      - xét nghiệm y khoa là làm gì
+      - học xét nghiệm y khoa làm gì
+      - những nghề nào liên quan đến xét nghiệm y khoa
+      - việc làm sau khi học xét nghiệm y khoa
+      - xét nghiệm y khoa có nghề nào
+      - nghề xét nghiệm y khoa
+      - nghề sau khi học xét nghiệm y khoa
+      - sau khi học xét nghiệm y khoa làm gì
+            
+  - intent: chnn_yhdp
+    examples: |
+      - học y học dự phòng sau này làm gì
+      - ngành y học dự phòng ra trường làm gì
+      - cơ hội nghề nghiệp y học dự phòng
+      - y học dự phòng là làm gì
+      - học y học dự phòng làm gì
+      - những nghề nào liên quan đến y học dự phòng
+      - việc làm sau khi học y học dự phòng
+      - y học dự phòng có nghề nào
+      - nghề y học dự phòng
+      - nghề sau khi học y học dự phòng
+      - sau khi học y học dự phòng làm gì
+            
+  - intent: chnn_ykhoa
+    examples: |
+      - học y khoa sau này làm gì
+      - ngành y khoa ra trường làm gì
+      - cơ hội nghề nghiệp y khoa
+      - y khoa là làm gì
+      - học y khoa làm gì
+      - những nghề nào liên quan đến y khoa
+      - việc làm sau khi học y khoa
+      - y khoa có nghề nào
+      - nghề y khoa
+      - nghề sau khi học y khoa
+      - sau khi học y khoa làm gì
+      
+
+      

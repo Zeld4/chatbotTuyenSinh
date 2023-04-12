@@ -442,7 +442,8 @@ responses:
   utter_gt_log:
     - text: "Đây là ngành nghiên cứu, phát triển và quản trị các dịch vụ vận chuyển trong quá trình sản xuất kinh doanh, đồng thời đào tạo những chuyên gia đưa ra chiến lược vận chuyển hàng hóa đến khắp nơi trên thế giới một cách hiệu quả, tạo ra những giá trị gia tăng làm hài lòng khách hàng của một thương hiệu hay doanh nghiệp."
 
-  
+  utter_gt_gdmn:
+    - text: "Ngành giáo dục mầm non là lĩnh vực đào tạo và phát triển trẻ em từ 0 đến 6 tuổi thông qua các hoạt động giáo dục, vui chơi và học tập. Các chuyên gia giáo dục mầm non đóng vai trò quan trọng trong việc xác định và phát triển các kỹ năng cơ bản cho trẻ em, bao gồm kỹ năng xã hội, kỹ năng giao tiếp, kỹ năng sống, kỹ năng tư duy, và kỹ năng văn hóa."
   
   utter_gt_htcn:
     - text: "Đây là ngành đào tạo ra những kỹ sư kỹ thuật hệ thống công nghiệp chuyên điều hành các hoạt động sản xuất, dịch vụ, cung ứng, dự án cho doanh nghiệp, công ty, cơ sở sản xuất, cơ sở dịch vụ. Do đó ngành này còn được gọi là Kỹ thuật Công nghiệp, Quản lý Công nghiệp."
@@ -480,8 +481,12 @@ responses:
   utter_gt_gdmn:
     - text: "Ngành giáo dục mầm non là lĩnh vực đào tạo và giáo dục trẻ em từ 0 - 6 tuổi, tập trung vào việc phát triển và nuôi dưỡng trí tuệ, tính cách và kỹ năng của trẻ để giúp chúng phát triển toàn diện và chuẩn bị tốt nhất cho tương lai."
   
+  utter_gt_phcn:
+    - text: "Ngành kỹ thuật phục hồi chức năng là lĩnh vực y tế liên quan đến việc khôi phục chức năng cho những người mắc các bệnh lý, chấn thương hoặc bị tật khuyết. Kỹ thuật phục hồi chức năng cung cấp các phương pháp đánh giá, chẩn đoán và điều trị để cải thiện khả năng hoạt động của bệnh nhân và giúp họ trở lại cuộc sống bình thường."
   
-  
+  utter_gt_qlbv:
+    - text: "Ngành quản lý bệnh viện là lĩnh vực liên quan đến việc quản lý và điều hành các hoạt động của bệnh viện và các cơ sở y tế khác. Ngành này đòi hỏi các chuyên gia quản lý hiểu rõ về hệ thống y tế, kinh doanh và quản lý, cũng như các quy định và chính sách liên quan đến y tế."
+
   utter_hp_cntt:
     - text: "Ngành Công nghệ thông tin với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
@@ -1005,6 +1010,26 @@ responses:
           • Chuyên viên thiết kế, chế tạo, lắp đặt, vận hành, bảo trì, sửa chữa các thiết bị, hệ thống của ngành kỹ thuật và công nghệ xử lý môi trường.
           • Vận hành công nghệ tái chế chất thải và xử lý nước cấp. nước thải, rác thải, khí thải cho các nhà máy, công ty, các khu công nghiệp, khu chế xuất...
           • Nghiên cứu chuyên sâu về lĩnh vực môi trường tại các trường đại học, viện nghiên cứu."
+
+  utter_chnn_gdmn:
+    - text: "Cơ hội nghề nghiệp: \n
+          • Giáo viên mầm non.
+          • Cố vấn giáo dục, nhà thiết kế môi trường học tập.
+          • Nhà phát triển chương trình giáo dục và quản lý trường mầm non."
+      
+  utter_chnn_phcn:
+    - text: "Cơ hội nghề nghiệp: \n
+          • Chuyên viên phục hồi chức năng.
+          • Chuyên viên đo lường và chuẩn đoán.
+          • Chuyên viên về vật lý trị liệu.
+          • Chuyên viên về dinh dưỡng."
+
+  utter_chnn_qlbv:
+    - text: "Cơ hội nghề nghiệp: \n
+          • Quản lý bệnh viện
+          • Chuyên viên tài chính y tế
+          • Chuyên viên đào tạo và phát triển và các chuyên gia về chính sách y tế"
+
 
 
 
